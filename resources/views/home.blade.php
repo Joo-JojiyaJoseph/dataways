@@ -4,34 +4,134 @@
 
 
     {{-- Hero Section --}}
-    <section class="bg-light-blue  pb-20 ">
-        <div class="container mx-auto">
-            <div id="home" class="grid grid-cols-2  lg:grid-cols-2 xl:pt-20  lg:h-screen ">
+    <section class="bg-light-blue  py-10  ">
+
+        <div class="container mx-auto relative ">
+            <div class="absolute hidden lg:block lg:h-screen  pt-20 ">
+                <img class="" src="{{ asset('images/home/Group8068.svg') }}" alt="client" />
+            </div>
+            <div id="home" class="place-items-center pl-20 grid grid-cols-2  lg:grid-cols-2 xl:py-20  lg:h-screen ">
                 <div
-                    class=" flex items-center flex-col justify-center border-4 border-white rounded-[282px] xl:h-[550px] xl:w-[400px]">
-                    <div class="border-8 border-white rounded-[282px] xl:h-[500px] xl:w-[350px] bg-cover"
+                    class="  flex items-center flex-col justify-center border-4 border-white rounded-[282px] xl:h-[600px] xl:w-[370px] 2xl:h-[700px] 2xl:w-[475px] ">
+                    <div class="border-8 border-white rounded-[282px] xl:h-[550px] xl:w-[325px] 2xl:h-[650px] 2xl:w-[425px] bg-cover"
                         style="background-image: url({{ asset('images/home/Image40.png') }})">
                     </div>
                 </div>
                 <div
-                    class=" p-10 order-last lg:order-first flex flex-col justify-center w-full  h-full pt-10 md:pt-0   ">
+                    class="  order-last lg:order-first flex flex-col justify-center w-full  h-full  md:pt-0   ">
                     <h1 class="text-4xl md:text-6xl 2xl:text-7xl  font-bold text-white text-left md:py-4 ">
                         THE WAY TO </h1>
                     <h1 class="text-4xl md:text-6xl 2xl:text-7xl  font-bold text-sky-blue text-left ">
                         INFINITE THINKING</h1>
-                    <p class="text-white text-lg  md:text-xl ">An AI Data Collection Platform From Infolks Group</p>
+                    <p class="text-white 2xl:text-3xl xl:text-2xl py-3 font-semi-bold ">An AI Data Collection Platform From Infolks Group</p>
                 </div>
             </div>
-            <div class="container text-white mx-auto text-center ">
-                <p>As a data providing company, Dataways collects and processes supervised training and testing
-                    datasets, including image, text, audio, video, and 3D Point Cloud for machine learning
-                    algorithms.We outsource both uncomplicated data collection use cases and lengthy, linguistically
-                    challenging tasks with our pre-built data collection tools.</p>
+
+        </div>
+
+        <div class=" text-white mx-auto text-center text-2xl p-20 ">
+            <p>As a data providing company, Dataways collects and processes supervised training and testing
+                datasets, including image, text, audio, video, and 3D Point Cloud for machine learning
+                algorithms.We outsource both uncomplicated data collection use cases and lengthy, linguistically
+                challenging tasks with our pre-built data collection tools.</p>
+        </div>
+    </section>
+    {{-- End Hero Section --}}
+
+
+    {{-- how it work --}}
+     <section class="bg-light-blue  pb-20 ">
+        <div class="container mx-auto">
+            <h1 class="text-3xl 2xl:text-5xl font-semibold text-center text-white   ">
+               How It <span class="text-sky-blue">Works</span>
+            </h1>
+
+            <div id="home" class="place-items-center mx-auto grid grid-cols-2 gap-y-20 lg:grid-cols-4 xl:pt-20  ">
+                {{-- client --}}
+                <div class="flex flex-col items-center">
+                <div class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
+                    <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#9572FD] p-2" src="{{ asset('images/home/Group8147.svg') }}" alt="client" />
+                </div>
+                <p class="text-white text-center p-2 text-xl">Client</p>
+                </div>
+
+                 {{-- meet our team --}}
+                 <div class="flex flex-col items-center">
+                 <div class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
+                    <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#4CE0FE] p-3" src="{{ asset('images/home/Group8149.svg') }}" alt="client" />
+                 </div>
+                 <p class="text-white text-center p-2 text-xl">Meet our team</p>
+                </div>
+
+
+                 {{-- feasibility study--}}
+                 <div class="flex flex-col items-center">
+                 <div
+                 class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
+                 <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#921583] p-3" src="{{ asset('images/home/Group8156.svg') }}" alt="client" />
+                 </div>
+                 <p class="text-white text-center p-2 text-xl">Feasibility Study</p>
+                </div>
+
+
+                 {{-- Sample phase--}}
+                 <div class="flex flex-col items-center">
+                 <div
+                 class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
+                 <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#DD0062] p-3" src="{{ asset('images/home/Group8160.svg') }}" alt="client" />
+                 </div>
+                 <p class="text-white text-center p-2 text-xl">Sample Phase</p>
+                </div>
+
+
+                   {{-- final export--}}
+                   <div class="flex flex-col items-center">
+                   <div
+                   class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
+                   <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#2D97FF] p-3" src="{{ asset('images/home/Group8161.svg') }}" alt="client" />
+                  </div>
+                  <p class="text-white text-center p-2 text-xl">Final Export</p>
+                </div>
+
+
+                  {{-- Data production--}}
+                  <div class="flex flex-col items-center">
+                  <div
+                  class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
+                  <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#FBBD4E] p-2" src="{{ asset('images/home/Group8157.svg') }}" alt="client" />
+                 </div>
+                 <p class="text-white text-center p-2 text-xl">Data Production</p>
+                </div>
+
+
+
+                  {{-- Client feedback--}}
+                  <div class="flex flex-col items-center">
+                  <div
+                  class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
+                  <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#8FD1B5] p-3" src="{{ asset('images/home/Group8153.svg') }}" alt="client" />
+                 </div>
+                 <p class="text-white text-center p-2 text-xl">Data Production</p>
+                </div>
+
+
+
+                    {{-- proposal submit--}}
+                    <div class="flex flex-col items-center">
+                    <div
+                    class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
+                    <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#E272D6] p-3" src="{{ asset('images/home/Group8152.svg') }}" alt="client" />
+                    </div>
+                    <p class="text-white text-center p-2 text-xl">Proposal Submit</p>
+                </div>
+
+
+
+
             </div>
         </div>
     </section>
-
-    {{-- End Hero Section --}}
+    {{-- end how it work --}}
 
 
     {{-- our industries --}}
@@ -637,7 +737,6 @@
             </div>
         </div>
     </section>
-
     {{-- End our industries --}}
 
 
