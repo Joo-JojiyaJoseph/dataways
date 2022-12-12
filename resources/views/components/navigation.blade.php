@@ -94,6 +94,13 @@
                     </a>
                    </li>
 
+                    {{-- services --}}
+                <li>
+                    <a href="" class="py-4 px-3 relative" :class= "{'text-white' : {{ request()->routeIs('home') }}}" target="_blank">
+                        Services
+                    </a>
+                </li>
+
                 {{-- Career --}}
                 <li>
                     <a href="" class="py-4 px-3 relative" :class= "{'text-white' : {{ request()->routeIs('home') }}}" target="_blank">
@@ -103,7 +110,7 @@
 
                   {{-- Contact Us --}}
                   <li>
-                    <a href="" class="py-4 px-3 relative" :class= "{'text-white' : {{ request()->routeIs('home') }}}" target="_blank">
+                    <a href="" class="py-2 px-6 rounded-lg relative border-4" :class= "{'text-white' : {{ request()->routeIs('home') }}}" target="_blank">
                         Contact Us
                     </a>
                 </li>
