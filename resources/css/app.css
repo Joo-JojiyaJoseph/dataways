@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.scrolled {
+    @apply bg-light-blue text-white  backdrop-filter backdrop-blur-sm ;
+}
