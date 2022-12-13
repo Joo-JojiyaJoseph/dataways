@@ -4,23 +4,23 @@
 
 
     {{-- Hero Section --}}
-    <section class="bg-light-blue  py-10  ">
+    <section class="bg-light-blue  xl:py-10 pt-36  ">
 
         <div class="container mx-auto relative ">
             <div class="absolute hidden lg:block lg:h-screen  pt-20 ">
                 <img class="" src="{{ asset('images/home/Group8068.svg') }}" alt="client" />
             </div>
-            <div id="home" class="place-items-center pl-20 grid grid-cols-2  lg:grid-cols-2 xl:py-20  lg:h-screen ">
+            <div id="home" class="place-items-center xl:pl-20 pl-5 grid grid-cols-3  lg:grid-cols-2 md:py-20  lg:h-screen ">
                 <div
-                    class="  flex items-center flex-col justify-center border-4 border-white rounded-[282px] xl:h-[600px] xl:w-[370px] 2xl:h-[700px] 2xl:w-[475px] ">
-                    <div class="border-8 border-white rounded-[282px] xl:h-[550px] xl:w-[325px] 2xl:h-[650px] 2xl:w-[425px] bg-cover"
+                    class=" ml-20 lg:ml-0 flex items-center flex-col justify-center border-4 border-white rounded-[282px]  h-[300px] w-[320px]  md:h-[500px] md:w-[370px]  xl:h-[600px] xl:w-[370px] 2xl:h-[700px] 2xl:w-[475px] ">
+                    <div class="border-8 border-white rounded-[282px]  h-[250px] w-[270px] md:h-[450px] md:w-[325px]  xl:h-[550px] xl:w-[325px] 2xl:h-[650px] 2xl:w-[425px] bg-cover"
                         style="background-image: url({{ asset('images/home/Image40.png') }})">
                     </div>
                 </div>
-                <div class="  order-last lg:order-first flex flex-col justify-center w-full  h-full  md:pt-0   ">
-                    <h1 class="text-4xl md:text-6xl 2xl:text-7xl  font-bold text-white text-left md:py-4 ">
+                <div class="col-span-2 lg:col-span-1  order-first lg:order-first flex flex-col justify-center w-full  h-full  md:pt-0   ">
+                    <h1 class="text-3xl xl:text-6xl md:text-5xl 2xl:text-7xl  font-bold text-white text-left md:py-4 ">
                         THE WAY TO </h1>
-                    <h1 class="text-4xl md:text-6xl 2xl:text-7xl  font-bold text-sky-blue text-left ">
+                    <h1 class="text-3xl xl:text-6xl md:text-5xl 2xl:text-7xl  font-bold text-sky-blue text-left ">
                         INFINITE THINKING</h1>
                     <p class="text-white 2xl:text-3xl xl:text-2xl py-3 font-semi-bold ">An AI Data Collection Platform
                         From Infolks Group</p>
@@ -42,11 +42,15 @@
     {{-- how it work --}}
     <section class="bg-light-blue  pb-20 ">
         <div class="container mx-auto">
-            <h1 class="text-3xl 2xl:text-5xl font-semibold text-center text-white   ">
+            <div class="py-10 ">
+            <h1 class=" text-3xl 2xl:text-5xl xl:text-4xl font-semibold text-center text-white   ">
                 How It <span class="text-sky-blue">Works</span>
             </h1>
+            <div class="mx-auto h-1 w-[100px] bg-white  top-5 right-3 mt-5 rounded-full under_line" id="under_line">
+            </div>
+            </div>
 
-            <div id="home" class="place-items-center mx-auto grid grid-cols-2 gap-y-20 lg:grid-cols-4 xl:pt-20  ">
+            <div id="home" class="place-items-center mx-auto grid grid-cols-1 gap-y-20 lg:grid-cols-4 xl:pt-10  ">
                 {{-- client --}}
                 <div class="flex flex-col items-center">
                     <div
@@ -141,14 +145,18 @@
     {{-- our industries --}}
     <section class="bg-dark-blue  pb-20 ">
         <div class="mx-auto">
-            <h1 class="text-3xl 2xl:text-5xl font-semibold text-center text-white py-10 ">
+            <div class="py-10 ">
+            <h1 class="text-3xl 2xl:text-5xl xl:text-4xl font-semibold text-center text-white ">
                 Our <span class="text-sky-blue">Industries</span>
             </h1>
+            <div class="mx-auto h-1 w-[100px] bg-white  top-5 right-3 mt-5 rounded-full under_line" id="under_line">
+            </div>
+            </div>
             <div id="industries"
                 class="container place-items-center mx-auto grid md:grid-cols-2 grid-cols-1 gap-4  lg:grid-cols-2 xl:grid-cols-3">
 
                 {{-- Human attribution --}}
-                <div class=" 2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group " id="unique">
+                <div class=" 2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group ">
                     <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
                         style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
                         <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
@@ -209,7 +217,7 @@
                 </div>
 
                 {{-- Technology --}}
-                <div class=" 2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group  " id="unique">
+                <div class=" 2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group  ">
                     <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
                         style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
                         <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
@@ -270,7 +278,7 @@
                 </div>
 
                 {{-- Healthcare --}}
-                <div class=" 2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group " id="unique">
+                <div class="md:hidden block xl:block 2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group ">
                     <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
                         style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
                         <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
@@ -330,11 +338,71 @@
                 </div>
             </div>
 
-            <div id=""
-                class="container place-items-center mx-auto grid md:grid-cols-2 grid-cols-1 gap-4  lg:grid-cols-2 xl:grid-cols-3">
+            {{-- webview our industry --}}
 
+            <div id=""
+                class="container hidden  place-items-center mx-auto md:grid md:grid-cols-2 grid-cols-1 gap-4  lg:grid-cols-2 xl:grid-cols-3">
+                {{-- Healthcare --}}
+                <div class="md:block hidden xl:hidden 2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group ">
+                    <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
+                        style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
+                        <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
+                            <div class="h-36 lg:h-48 w-full">
+                                <img alt="" class="object-cover border-1 rounded-3xl h-full w-full"
+                                    src="{{ asset('images/home/healthcare.png') }}" />
+                            </div>
+                            <div class=" bg-white p-5 h-auto rounded-3xl  ">
+                                <div class=" flex flex-col justify-center ">
+                                    <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                        Healthcare
+                                    </h1>
+                                </div>
+                                <p class="  text-light-gray  text-justify">Machine learning has been firmly established
+                                    in the medical industry, which has been expanding day by.
+                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak> Machine
+                                        learning has been firmly established in the medical industry, which has been
+                                        expanding day by day.</span>
+                                </p>
+                                <div class="flex justify-end pt-2">
+                                    <span x-show="! open" x-cloak>
+                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                    </span>
+                                    <span x-show="open" x-cloak>
+                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
+                                    </span>
+                                    <a x-on:click="open = ! open">
+
+                                        <span x-show="open" x-cloak>
+                                            <div
+                                                class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    stroke-width="1.5" stroke="currentColor"
+                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                </svg>
+                                            </div>
+                                        </span>
+
+                                        <span x-show="! open" x-cloak>
+                                            <div
+                                                class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    stroke-width="1.5" stroke="currentColor"
+                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                </svg>
+                                            </div>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 {{-- Retail --}}
-                <div class="xl:col-span-2  2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group " id="unique">
+                <div class="xl:col-span-2  2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group ">
                     <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
                         style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
                         <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
@@ -396,8 +464,7 @@
                 </div>
 
                 {{-- Automation --}}
-                <div class=" 2xl:w-[30rem] 2xl:-translate-x-64 xl:-translate-x-56 lg:w-[25rem]  w-auto p-5 group "
-                    id="unique">
+                <div class=" 2xl:w-[30rem] 2xl:-translate-x-64 xl:-translate-x-56 lg:w-[25rem]  w-auto p-5 group ">
                     <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
                         style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
                         <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
@@ -458,7 +525,7 @@
                 </div>
 
                 {{-- Agriculture --}}
-                <div class=" 2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group " id="unique">
+                <div class=" 2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group ">
                     <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
                         style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
                         <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
@@ -520,7 +587,7 @@
                 </div>
 
                 {{-- Logistics --}}
-                <div class=" 2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group " id="unique">
+                <div class=" 2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group ">
                     <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
                         style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
                         <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
@@ -582,7 +649,7 @@
                 </div>
 
                 {{-- Sports --}}
-                <div class=" 2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group " id="unique">
+                <div class=" 2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group ">
                     <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
                         style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
                         <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
@@ -644,7 +711,7 @@
                 </div>
 
                 {{-- Financial Services --}}
-                <div class="xl:col-span-2  2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group " id="unique">
+                <div class="xl:col-span-2  2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group ">
                     <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
                         style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
                         <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
@@ -706,8 +773,7 @@
                 </div>
 
                 {{-- Government --}}
-                <div class=" 2xl:w-[30rem] 2xl:-translate-x-64 xl:-translate-x-56 lg:w-[25rem]  w-auto p-5 group "
-                    id="unique">
+                <div class=" 2xl:w-[30rem] 2xl:-translate-x-64 xl:-translate-x-56 lg:w-[25rem]  w-auto p-5 group ">
                     <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
                         style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
                         <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
@@ -769,10 +835,472 @@
                 </div>
 
             </div>
+            {{-- end webview our industry --}}
+
+            {{-- ============ mobileview our industry =================== --}}
+            <div x-data=" { open: false }"
+                class="container md:hidden  place-items-center mx-auto grid md:grid-cols-2 grid-cols-1 gap-4  lg:grid-cols-2 xl:grid-cols-3">
+                <span x-show="open" @click.outside="open = false" x-transition x-cloak>
+
+                    {{-- Retail --}}
+                    <div class="xl:col-span-2  2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group ">
+                        <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
+                            style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
+                            <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
+                                <div class="h-36 lg:h-48 w-full">
+                                    <img alt="" class="object-cover border-1 rounded-3xl h-full w-full"
+                                        src="{{ asset('images/home/retail.png') }}" />
+                                </div>
+                                <div class=" bg-white p-5 h-auto rounded-3xl  ">
+                                    <div class=" flex flex-col justify-center ">
+                                        <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                            Retail
+                                        </h1>
+                                    </div>
+                                    <p class="  text-light-gray  text-justify">In order to create a wonderful online
+                                        shopping experience for customers, machine learning and AI are
+                                        <span x-show="open" @click.outside="open = false" x-transition x-cloak> In
+                                            order
+                                            to create a wonderful online shopping experience for customers, machine
+                                            learning
+                                            and AI are currently being used in the retail sector.</span>
+                                    </p>
+                                    <div class="flex justify-end pt-2">
+                                        <span x-show="! open" x-cloak>
+                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                        </span>
+                                        <span x-show="open" x-cloak>
+                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
+                                        </span>
+                                        <a x-on:click="open = ! open">
+
+                                            <span x-show="open" x-cloak>
+
+                                                <div
+                                                    class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        stroke-width="1.5" stroke="currentColor"
+                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+
+                                            <span x-show="! open" x-cloak>
+
+                                                <div
+                                                    class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        stroke-width="1.5" stroke="currentColor"
+                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- Automation --}}
+                    <div class=" 2xl:w-[30rem] 2xl:-translate-x-64 xl:-translate-x-56 lg:w-[25rem]  w-auto p-5 group ">
+                        <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
+                            style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
+                            <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
+                                <div class="h-36 lg:h-48 w-full">
+                                    <img alt="" class="object-cover border-1 rounded-3xl h-full w-full"
+                                        src="{{ asset('images/home/automation.png') }}" />
+                                </div>
+                                <div class=" bg-white p-5 h-auto rounded-3xl  ">
+                                    <div class=" flex flex-col justify-center ">
+                                        <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                            Automation
+                                        </h1>
+                                    </div>
+                                    <p class="  text-light-gray  text-justify">The automotive sector has been
+                                        completely
+                                        transformed by artificial intelligence, which has
+                                        <span x-show="open" @click.outside="open = false" x-transition x-cloak> which
+                                            has
+                                            accelerated the development of autonomous vehicles. </span>
+                                    </p>
+                                    <div class="flex justify-end pt-2">
+                                        <span x-show="! open" x-cloak>
+                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                        </span>
+                                        <span x-show="open" x-cloak>
+                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
+                                        </span>
+                                        <a x-on:click="open = ! open">
+
+                                            <span x-show="open" x-cloak>
+
+                                                <div
+                                                    class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        stroke-width="1.5" stroke="currentColor"
+                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+
+                                            <span x-show="! open" x-cloak>
+
+                                                <div
+                                                    class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        stroke-width="1.5" stroke="currentColor"
+                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- Agriculture --}}
+                    <div class=" 2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group ">
+                        <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
+                            style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
+                            <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
+                                <div class="h-36 lg:h-48 w-full">
+                                    <img alt="" class="object-cover border-1 rounded-3xl h-full w-full"
+                                        src="{{ asset('images/home/agriculture.png') }}" />
+                                </div>
+                                <div class=" bg-white p-5 h-auto rounded-3xl  ">
+                                    <div class=" flex flex-col justify-center ">
+                                        <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                            Agriculture
+                                        </h1>
+                                    </div>
+                                    <p class="  text-light-gray  text-justify">Different digital technologies,
+                                        including
+                                        AI, are being adopted by farmers in various nations.
+                                        <span x-show="open" @click.outside="open = false" x-transition x-cloak>
+                                            Different
+                                            digital technologies, including AI, are being adopted by farmers in various
+                                            nations. </span>
+                                    </p>
+                                    <div class="flex justify-end pt-2">
+                                        <span x-show="! open" x-cloak>
+                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                        </span>
+                                        <span x-show="open" x-cloak>
+                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
+                                        </span>
+                                        <a x-on:click="open = ! open">
+
+                                            <span x-show="open" x-cloak>
+
+                                                <div
+                                                    class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        stroke-width="1.5" stroke="currentColor"
+                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+
+                                            <span x-show="! open" x-cloak>
+
+                                                <div
+                                                    class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        stroke-width="1.5" stroke="currentColor"
+                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- Logistics --}}
+                    <div class=" 2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group ">
+                        <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
+                            style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
+                            <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
+                                <div class="h-36 lg:h-48 w-full">
+                                    <img alt="" class="object-cover border-1 rounded-3xl h-full w-full"
+                                        src="{{ asset('images/home/logistics.png') }}" />
+                                </div>
+                                <div class=" bg-white p-5 h-auto rounded-3xl  ">
+                                    <div class=" flex flex-col justify-center ">
+                                        <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                            Logistics
+                                        </h1>
+                                    </div>
+                                    <p class="  text-light-gray  text-justify">Large-scale data analysis and better
+                                        logistics management are made possible by machine learning
+                                        <span x-show="open" @click.outside="open = false" x-transition x-cloak>
+                                            Large-scale data analysis and better logistics management are made possible
+                                            by
+                                            machine learning for logistics service providers. </span>
+                                    </p>
+                                    <div class="flex justify-end pt-2">
+                                        <span x-show="! open" x-cloak>
+                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                        </span>
+                                        <span x-show="open" x-cloak>
+                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
+                                        </span>
+                                        <a x-on:click="open = ! open">
+
+                                            <span x-show="open" x-cloak>
+
+                                                <div
+                                                    class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        stroke-width="1.5" stroke="currentColor"
+                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+
+                                            <span x-show="! open" x-cloak>
+
+                                                <div
+                                                    class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        stroke-width="1.5" stroke="currentColor"
+                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- Sports --}}
+                    <div class=" 2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group ">
+                        <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
+                            style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
+                            <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
+                                <div class="h-36 lg:h-48 w-full">
+                                    <img alt="" class="object-cover border-1 rounded-3xl h-full w-full"
+                                        src="{{ asset('images/home/sports.png') }}" />
+                                </div>
+                                <div class=" bg-white p-5 h-auto rounded-3xl  ">
+                                    <div class=" flex flex-col justify-center ">
+                                        <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                            Sports
+                                        </h1>
+                                    </div>
+                                    <p class="  text-light-gray  text-justify">In this new generation's sports and
+                                        gaming,
+                                        AI is becoming an increasingly prevalent phenomena for
+                                        <span x-show="open" @click.outside="open = false" x-transition x-cloak> In
+                                            this
+                                            new generation's sports and gaming, AI is becoming an increasingly prevalent
+                                            phenomena for the purpose of player tracking, player segmentation, action
+                                            identification, player position tracking etc. </span>
+                                    </p>
+                                    <div class="flex justify-end pt-2">
+                                        <span x-show="! open" x-cloak>
+                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                        </span>
+                                        <span x-show="open" x-cloak>
+                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
+                                        </span>
+                                        <a x-on:click="open = ! open">
+
+                                            <span x-show="open" x-cloak>
+                                                <div
+                                                    class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        stroke-width="1.5" stroke="currentColor"
+                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+
+                                            <span x-show="! open" x-cloak>
+
+                                                <div
+                                                    class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        stroke-width="1.5" stroke="currentColor"
+                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- Financial Services --}}
+                    <div class="xl:col-span-2  2xl:w-[30rem] lg:w-[25rem]  w-auto p-5 group ">
+                        <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
+                            style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
+                            <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
+                                <div class="h-36 lg:h-48 w-full">
+                                    <img alt="" class="object-cover border-1 rounded-3xl h-full w-full"
+                                        src="{{ asset('images/home/financial_services.png') }}" />
+                                </div>
+                                <div class=" bg-white p-5 h-auto rounded-3xl  ">
+                                    <div class=" flex flex-col justify-center ">
+                                        <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                            Financial Services
+                                        </h1>
+                                    </div>
+                                    <p class="  text-light-gray  text-justify">AI is applied in finance to provide a
+                                        solution that may change how we distribute credit and risk, leading to
+                                        <span x-show="open" @click.outside="open = false" x-transition x-cloak>AI is
+                                            applied in finance to provide a solution that may change how we distribute
+                                            credit and risk, leading to better, more competitive systems</span>
+                                    </p>
+                                    <div class="flex justify-end pt-2">
+                                        <span x-show="! open" x-cloak>
+                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                        </span>
+                                        <span x-show="open" x-cloak>
+                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
+                                        </span>
+                                        <a x-on:click="open = ! open">
+
+                                            <span x-show="open" x-cloak>
+
+                                                <div
+                                                    class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        stroke-width="1.5" stroke="currentColor"
+                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+
+                                            <span x-show="! open" x-cloak>
+
+                                                <div
+                                                    class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        stroke-width="1.5" stroke="currentColor"
+                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- Government --}}
+                    <div class=" 2xl:w-[30rem] 2xl:-translate-x-64 xl:-translate-x-56 lg:w-[25rem]  w-auto p-5 group ">
+                        <div class=" h-full w-full md:border-1 rounded-3xl bg-white  "
+                            style="box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;">
+                            <div x-data="{ open: false }" class="relative h-full w-full flex flex-col ">
+                                <div class="h-36 lg:h-48 w-full">
+                                    <img alt="" class="object-cover border-1 rounded-3xl h-full w-full"
+                                        src="{{ asset('images/home/government.png') }}" />
+                                </div>
+                                <div class=" bg-white p-5 h-auto rounded-3xl  ">
+                                    <div class=" flex flex-col justify-center ">
+                                        <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                            Government
+                                        </h1>
+                                    </div>
+                                    <p class="  text-light-gray  text-justify">By automating a variety of
+                                        labor-intensive
+                                        data processing and analysis processes, machine learning.
+                                        <span x-show="open" @click.outside="open = false" x-transition x-cloak>By
+                                            automating a variety of labor-intensive data processing and analysis
+                                            processes,
+                                            machine learning can enhance the government. </span>
+                                    </p>
+                                    <div class="flex justify-end pt-2">
+                                        <span x-show="! open" x-cloak>
+                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                        </span>
+                                        <span x-show="open" x-cloak>
+                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
+                                        </span>
+                                        <a x-on:click="open = ! open">
+
+                                            <span x-show="open" x-cloak>
+
+                                                <div
+                                                    class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        stroke-width="1.5" stroke="currentColor"
+                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+
+                                            <span x-show="! open" x-cloak>
+
+                                                <div
+                                                    class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                        stroke-width="1.5" stroke="currentColor"
+                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                                    </svg>
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+
+                <a x-on:click="open = ! open" class="flex justify-center pt-5">
+                    <span x-show="open" class="block md:hidden text-center text-white bg-light-gray p-1 px-5 rounded-3xl " x-cloak>Less
+
+                    </span>
+
+                    <span x-show="! open" class="block md:hidden  text-white bg-light-gray p-1 px-5 rounded-3xl " x-cloak>More
+                    </span>
+
+                </a>
+            </div>
+            {{-- End mobileview our industry --}}
         </div>
     </section>
     {{-- End our industries --}}
-
 
 
 </x-app-layout>
