@@ -2,12 +2,13 @@
     <div class="flex items-center justify-between py-4 md:py-3 lg:w-full xl:w-[85%] mx-auto px-4 md:px-4 lg:px-0">
         <div class="">
             <a href="{{ route('home') }}">
-                @if (request()->routeIs('home'))
+                <h1 class="text-white text-4xl">Dataways</h1>
+                {{-- @if (request()->routeIs('home'))
                 <img src="{{ asset('images/logo/logo-white.svg') }}" alt="" class="w-28 md:w-36 lg:w-44">
                 @else
                 <img src="{{ asset('images/logo/logo.svg') }}" alt="" class="w-28 md:w-36 lg:w-44" id="logo1">
                 <img src="{{ asset('images/logo/logo-white.svg') }}" alt="" class="w-28 md:w-36 lg:w-44 hidden" id="logo2">
-                @endif
+                @endif --}}
             </a>
         </div>
 
