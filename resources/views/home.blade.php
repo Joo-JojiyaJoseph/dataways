@@ -48,22 +48,39 @@
             </h1>
             <div class="mx-auto h-1 w-[100px] bg-white  top-5 right-3 mt-5 rounded-full under_line" id="under_line">
             </div>
+
             </div>
 
-            <div id="home" class="place-items-center mx-auto grid grid-cols-1 gap-y-20 lg:grid-cols-4 xl:pt-10  ">
+            <div id="how_it_work" class="relative place-items-center mx-auto grid grid-cols-1 gap-y-20 lg:grid-cols-4 xl:pt-10  ">
+                {{-- <div class="flex  items-center relative"> --}}
+                    <div class="hidden xl:block absolute mx-auto h-1 w-[85%] bg-white  -translate-y-2 translate-x-16 rounded-full under_line" id="under_line">
+                    </div> <div class="absolute mx-auto h-48 w-1 bg-white translate-y-10 xl:-translate-x-4 2xl:-translate-x-8  top-5 right-3 mt-5 rounded-full under_line" id="under_line">
+                    </div>
+
+
+
                 {{-- client --}}
+                <div class="flex relative">
                 <div class="flex flex-col items-center">
                     <div
-                        class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
+                        class="z-0 flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
                         <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#9572FD] p-2"
                             src="{{ asset('images/home/Group8147.svg') }}" alt="client" />
                     </div>
                     <p class="text-white text-center p-2 text-xl">Client</p>
                 </div>
+                <div class="absolute mt-1 2xl:translate-x-52 xl:translate-x-44">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 fill-[#9572FD] stroke-none"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+                </div>
+                </div>
+
 
 
                 {{-- meet our team --}}
-                <div class="flex flex-col items-center">
+                <div class="flex relative">
+                <div class=" z-0 flex flex-col items-center">
                     <div
                         class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
                         <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#4CE0FE] p-3"
@@ -71,10 +88,16 @@
                     </div>
                     <p class="text-white text-center p-2 text-xl">Meet our team</p>
                 </div>
-
+                <div class="absolute mt-1 2xl:translate-x-60 xl:translate-x-48">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 fill-[#4CE0FE] stroke-none"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                    </div>
+                    </div>
 
                 {{-- feasibility study --}}
-                <div class="flex flex-col items-center">
+                <div class="flex relative">
+                <div class="z-0 flex flex-col items-center">
                     <div
                         class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
                         <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#921583] p-3"
@@ -82,10 +105,16 @@
                     </div>
                     <p class="text-white text-center p-2 text-xl">Feasibility Study</p>
                 </div>
-
+                <div class="absolute mt-1 2xl:translate-x-60 xl:translate-x-48">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 fill-[#921583] stroke-none"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                    </div>
+                    </div>
 
                 {{-- Sample phase --}}
-                <div class="flex flex-col items-center">
+                <div class="flex relative">
+                <div class="z-0 flex flex-col items-center">
                     <div
                         class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
                         <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#DD0062] p-3"
@@ -93,10 +122,23 @@
                     </div>
                     <p class="text-white text-center p-2 text-xl">Sample Phase</p>
                 </div>
+                <div class="absolute  2xl:translate-x-44 xl:translate-x-[10rem] translate-y-28">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 fill-[#DD0062] rotate-90 stroke-none"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                    </div>
+                </div>
+              </div>
 
+              {{-- <div class="flex  items-center xl:pt-10"> --}}
+                <div id="how_it_work" class="relative place-items-center mx-auto grid grid-cols-1 gap-y-20 lg:grid-cols-4 xl:pt-10  ">
+                <div class="hidden mt-2 xl:block absolute mx-auto h-1 w-[85%] bg-white  -translate-y-2 translate-x-16 rounded-full under_line" id="under_line">
+                </div>
 
                 {{-- final export --}}
-                <div class="flex flex-col items-center">
+
+
+                <div class="z-0 flex flex-col items-center">
                     <div
                         class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
                         <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#2D97FF] p-3"
@@ -107,7 +149,8 @@
 
 
                 {{-- Data production --}}
-                <div class="flex flex-col items-center">
+                <div class="flex relative">
+                <div class="z-0 flex flex-col items-center">
                     <div
                         class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
                         <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#FBBD4E] p-2"
@@ -115,9 +158,17 @@
                     </div>
                     <p class="text-white text-center p-2 text-xl">Data Production</p>
                 </div>
+                <div class="absolute mt-2 2xl:-translate-x-36 xl:-translate-x-32">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 fill-[#FBBD4E] stroke-none rotate-180"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                    </div>
+                </div>
+
 
                 {{-- Client feedback --}}
-                <div class="flex flex-col items-center">
+                <div class="flex relative">
+                <div class="z-0 flex flex-col items-center">
                     <div
                         class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
                         <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#8FD1B5] p-3"
@@ -125,9 +176,17 @@
                     </div>
                     <p class="text-white text-center p-2 text-xl">Data Production</p>
                 </div>
+                <div class="absolute mt-2 2xl:-translate-x-36 xl:-translate-x-32">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 fill-[#8FD1B5] stroke-none rotate-180"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                    </div>
+                </div>
+
 
                 {{-- proposal submit --}}
-                <div class="flex flex-col items-center">
+                <div class="flex relative">
+                <div class="z-0 flex flex-col items-center">
                     <div
                         class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
                         <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#E272D6] p-3"
@@ -135,6 +194,13 @@
                     </div>
                     <p class="text-white text-center p-2 text-xl">Proposal Submit</p>
                 </div>
+                <div class="absolute mt-2 2xl:-translate-x-36 xl:-translate-x-32">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 fill-[#E272D6] stroke-none rotate-180"  viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                    </div>
+                </div>
+
 
             </div>
         </div>
