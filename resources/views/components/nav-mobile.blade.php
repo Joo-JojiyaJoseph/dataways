@@ -34,7 +34,7 @@
             {{-- About --}}
             <li>
                 <li>
-                    <a href="" class="flex items-center justify-between w-full">
+                    <a href="}" class="flex items-center justify-between w-full">
                         About
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
@@ -44,11 +44,10 @@
             </li>
 
 
-
             {{-- Blog --}}
             <li>
                 <a href="" class="flex items-center justify-between w-full">
-                    Blogspot
+                    Blogs
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                      </svg>
@@ -75,12 +74,7 @@
                 </a>
             </li>
 
-            {{-- Contact Us --}}
-            <li>
-                <a href="" class="flex items-center justify-center w-full gap-x-2 bg-dark-blue text-white py-2 rounded-xl shadow-xl" download="Infolk Group Culture Book">
-                    Culture Book
-                </a>
-            </li>
+
         </ul>
     </div>
 </aside>
