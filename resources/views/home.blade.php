@@ -31,7 +31,7 @@
 
         </div>
 
-        <div class=" text-white mx-auto text-center xl:text-2xl  xl:p-20 p-5 ">
+        <div class=" text-white mx-auto text-center xl:text-2xl  xl:p-20 lg:p-10 p-5 ">
             <p>As a data providing company, Dataways collects and processes supervised training and testing
                 datasets, including image, text, audio, video, and 3D Point Cloud for machine learning
                 algorithms.We outsource both uncomplicated data collection use cases and lengthy, linguistically
@@ -56,12 +56,31 @@
             <div id="how_it_work"
                 class="relative place-items-center mx-auto grid grid-cols-1 gap-y-20 lg:grid-cols-2 xl:grid-cols-4 xl:pt-10  ">
                 {{-- <div class="flex  items-center relative"> --}}
-                <div class="hidden xl:block absolute mx-auto h-1 w-[85%] bg-white  -translate-y-2 translate-x-16 rounded-full under_line"
+                <div class="hidden lg:block absolute mx-auto h-1 xl:w-[85%] w-[66%] bg-white lg:-translate-y-36 lg:translate-x-36  xl:-translate-y-2 xl:translate-x-16 rounded-full under_line"
                     id="under_line">
                 </div>
-                <div class="absolute mx-auto xl:h-48 h-full w-1 bg-white translate-y-10  xl:translate-y-10 xl:-translate-x-4 2xl:-translate-x-8  top-5 xl:right-3  mt-5 rounded-full under_line"
+                <div class="block lg:hidden xl:block absolute mx-auto xl:h-48 h-full w-1 bg-white translate-y-10  xl:translate-y-10 xl:-translate-x-4 2xl:-translate-x-8  top-5 xl:right-3  mt-5 rounded-full under_line"
                     id="under_line">
                 </div>
+
+                  {{-- lg line feasibility --}}
+                  <div class="hidden lg:block xl:hidden absolute mx-auto h-1 xl:w-[85%] w-[94%] bg-white lg:translate-y-[7.7rem] lg:-translate-x-0  xl:-translate-y-2 xl:translate-x-16 rounded-full under_line"
+                  id="under_line">
+                  </div>
+                  {{--end lg line feasibility --}}
+
+                  {{-- lg feasibility vertical line --}}
+                  <div class="hidden lg:block xl:hidden absolute mx-auto h-[59%] xl:w-[85%] w-1 bg-white lg:-translate-y-[0.75rem] lg:translate-x-[0.2rem] right-8  xl:-translate-y-2 xl:translate-x-16 rounded-full under_line"
+                  id="under_line">
+                  </div>
+                  {{--end lg feasibility vertical line --}}
+
+                  {{-- lg sample phase vertical line --}}
+                  <div class="hidden lg:block xl:hidden absolute mx-auto h-[62%] xl:w-[85%] w-1 bg-white lg:translate-y-[16.6rem] lg:-translate-x-[0.1rem] left-8  xl:-translate-y-2 xl:translate-x-16 rounded-full under_line"
+                  id="under_line">
+                  </div>
+                  {{--end lg sample phase vertical line --}}
+
 
 
                 {{-- client --}}
@@ -72,10 +91,10 @@
                             <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#9572FD] p-2"
                                 src="{{ asset('images/home/Group8147.svg') }}" alt="client" />
                         </div>
-                        <p class="xl:text-white text-[#9572FD] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white xl:bg-transparent rounded-3xl xl:rounded-0">Client</p>
+                        <p class="lg:text-white text-[#9572FD] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white lg:bg-transparent rounded-3xl lg:rounded-0">Client</p>
                     </div>
-                    <div class="absolute mt-1 2xl:translate-x-52 xl:translate-x-44 translate-x-[2.2rem] translate-y-48 xl:translate-y-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" class=" w-18 xl:w-20 h-20 fill-[#9572FD] stroke-none rotate-90 xl:rotate-0"
+                    <div class="absolute mt-1 2xl:translate-x-52  xl:translate-x-44 lg:translate-x-[18rem] lg:translate-y-[2.5rem]  translate-x-[2.2rem] translate-y-48 xl:translate-y-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" class=" w-18 xl:w-20 h-20 fill-[#9572FD] stroke-none rotate-90 lg:rotate-0"
                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                         </svg>
@@ -90,9 +109,9 @@
                             <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#4CE0FE] p-3"
                                 src="{{ asset('images/home/Group8149.svg') }}" alt="client" />
                         </div>
-                        <p class="xl:text-white text-[#4CE0FE] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white xl:bg-transparent rounded-3xl xl:rounded-0">Meet our team</p>
+                        <p class="lg:text-white text-[#4CE0FE] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white lg:bg-transparent rounded-3xl lg:rounded-0">Meet our team</p>
                     </div>
-                    <div class="absolute mt-1 2xl:translate-x-52 xl:translate-x-44 translate-x-12 translate-y-48 xl:translate-y-0">
+                    <div class="absolute mt-1 2xl:translate-x-52 lg:translate-x-[17.1rem] xl:translate-x-44 translate-x-12 translate-y-48 xl:translate-y-0">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-18 xl:w-20 h-20 fill-[#4CE0FE] stroke-none  rotate-90 xl:rotate-0"
                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
@@ -101,7 +120,7 @@
                 </div>
 
                 {{-- feasibility study --}}
-                <div class="flex relative">
+                <div class="block lg:hidden xl:flex relative">
                     <div class="z-0 flex flex-col items-center">
                         <div
                             class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
@@ -119,7 +138,7 @@
                 </div>
 
                 {{-- Sample phase --}}
-                <div class="flex relative">
+                <div class="block lg:hidden xl:flex relative">
                     <div class="z-0 flex flex-col items-center">
                         <div
                             class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
@@ -135,6 +154,48 @@
                         </svg>
                     </div>
                 </div>
+
+                {{-- lg feasibility ,samplephase --}} {{-- feasibility study --}}
+
+                {{-- lg Sample phase --}}
+                <div class="hidden xl:hidden lg:flex relative">
+                    <div class="z-0 flex flex-col items-center">
+                        <div
+                            class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
+                            <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#DD0062] p-3"
+                                src="{{ asset('images/home/Group8160.svg') }}" alt="client" />
+                        </div>
+                        <p class="lg:text-white text-[#DD0062] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white lg:bg-transparent rounded-3xl lg:rounded-0">Sample Phase</p>
+                    </div>
+                    <div class="absolute lg:-translate-x-[11rem]  2xl:translate-x-44 xl:translate-x-[10rem] xl:translate-y-28 translate-x-[2.9rem] translate-y-48">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-18 xl:w-20 h-20 fill-[#DD0062] stroke-none rotate-90 xl:rotate-90"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </svg>
+                    </div>
+                </div>
+
+                 {{-- lg feasibility study --}}
+                <div class="hidden xl:hidden lg:flex relative">
+                    <div class="z-0 flex flex-col items-center">
+                        <div
+                            class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
+                            <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#921583] p-3"
+                                src="{{ asset('images/home/Group8156.svg') }}" alt="client" />
+                        </div>
+                        <p class="lg:text-white text-[#921583] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white lg:bg-transparent rounded-3xl lg:rounded-0">Feasibility Study</p>
+                    </div>
+                    <div class="absolute mt-1 2xl:translate-x-52 xl:translate-x-44 translate-x-[3.5rem] lg:-translate-x-48 lg:translate-y-10 translate-y-48 xl:translate-y-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-18 xl:w-20 h-20 fill-[#921583] stroke-none rotate-90 lg:rotate-180 xl:rotate-0"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </svg>
+                    </div>
+                </div>
+
+
+                {{-- lg end feasibility,sample phase --}}
+
             </div>
 
             {{-- webview 2nd grid --}}
@@ -216,13 +277,32 @@
 
             {{-- mobileview 2nd grid --}}
             <div id="how_it_work"
-                class=" xl:hidden  relative place-items-center mx-auto grid grid-cols-1 gap-y-20 lg:grid-cols-4 xl:pt-10 pt-16 ">
+                class=" xl:hidden  relative place-items-center mx-auto grid grid-cols-1 gap-y-20 lg:grid-cols-2 xl:pt-10 lg:pt-20 pt-16 ">
                 <div class="hidden mt-2 xl:block absolute mx-auto h-1 w-[85%] bg-white  -translate-y-2 translate-x-16 rounded-full under_line"
                     id="under_line">
                 </div>
-                <div class="xl:hidden block absolute mx-auto xl:h-48 h-full w-1 bg-white -translate-y-12  xl:translate-y-10 xl:-translate-x-4 2xl:-translate-x-8  top-5 xl:right-3  mt-5 rounded-full under_line"
+                <div class="lg:hidden block absolute mx-auto xl:h-48 h-full w-1 bg-white -translate-y-12  xl:translate-y-10 xl:-translate-x-4 2xl:-translate-x-8  top-5 xl:right-3  mt-5 rounded-full under_line"
                 id="under_line">
             </div>
+
+              {{-- lg data production vertical line --}}
+              <div class="hidden lg:block xl:hidden absolute mx-auto h-[48%] xl:w-[85%] w-1 bg-white lg:translate-y-[2.6rem] lg:translate-x-[0.1rem] right-8  xl:-translate-y-2 xl:translate-x-16 rounded-full under_line"
+              id="under_line">
+              </div>
+              {{--end lg data production vertical line --}}
+
+              {{-- lg line proposal  submmit --}}
+              <div class="hidden lg:block xl:hidden absolute mx-auto h-1 xl:w-[85%] w-[94%] bg-white lg:-translate-y-[5.5rem] lg:-translate-x-0  xl:-translate-y-2 xl:translate-x-16 rounded-full under_line"
+              id="under_line">
+              </div>
+              {{--end lg line proposal  submmit --}}
+
+               {{-- lg line data production --}}
+               <div class="hidden lg:block xl:hidden absolute mx-auto h-1 xl:w-[85%] w-[66%] bg-white lg:translate-y-[10.5rem] lg:translate-x-36  xl:-translate-y-2 xl:translate-x-16 rounded-full under_line"
+               id="under_line">
+               </div>
+               {{--end lg line data production --}}
+
 
                 {{-- proposal submit --}}
                 <div class="flex relative ">
@@ -232,11 +312,11 @@
                             <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#E272D6] p-3"
                                 src="{{ asset('images/home/Group8152.svg') }}" alt="client" />
                         </div>
-                        <p class="xl:text-white text-[#E272D6] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white xl:bg-transparent rounded-3xl xl:rounded-0">Proposal Submit</p>
+                        <p class="lg:text-white text-[#E272D6] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white lg:bg-transparent rounded-3xl lg:rounded-0">Proposal Submit</p>
                     </div>
-                    <div class="absolute mt-2 2xl:-translate-x-36 xl:-translate-x-32 translate-x-[3.5rem] translate-y-48 ">
+                    <div class="absolute mt-2 2xl:-translate-x-36 lg:translate-x-[20rem] lg:translate-y-12  xl:-translate-x-32 translate-x-[3.5rem] translate-y-48 ">
                         <svg xmlns="http://www.w3.org/2000/svg"
-                            class="w-20 h-20 fill-[#E272D6] stroke-none rotate-90" viewBox="0 0 24 24"
+                            class="w-20 h-20 fill-[#E272D6] stroke-none rotate-90 xl:rotate-90 lg:rotate-0" viewBox="0 0 24 24"
                             stroke-width="1.5" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                         </svg>
@@ -251,9 +331,9 @@
                             <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#8FD1B5] p-3"
                                 src="{{ asset('images/home/Group8153.svg') }}" alt="client" />
                         </div>
-                        <p class="xl:text-white text-[#8FD1B5] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white xl:bg-transparent rounded-3xl xl:rounded-0">Client feedback</p>
+                        <p class="lg:text-white text-[#8FD1B5] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white lg:bg-transparent rounded-3xl lg:rounded-0">Client feedback</p>
                     </div>
-                    <div class="absolute mt-2 2xl:-translate-x-36 xl:-translate-x-32 translate-x-[3.3rem] translate-y-48">
+                    <div class="absolute mt-2 lg:translate-x-[17.1rem] 2xl:-translate-x-36 xl:-translate-x-32 translate-x-[3.3rem] translate-y-48">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             class="w-20 h-20 fill-[#8FD1B5] stroke-none rotate-90" viewBox="0 0 24 24"
                             stroke-width="1.5" stroke="currentColor">
@@ -263,7 +343,7 @@
                 </div>
 
                  {{-- Data production --}}
-                 <div class="flex relative">
+                 <div class="block lg:hidden xl:flex relative">
                     <div class="z-0 flex flex-col items-center">
                         <div
                             class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
@@ -282,7 +362,7 @@
                 </div>
 
                 {{-- final export --}}
-                <div class="z-0 flex flex-col items-center">
+                <div class="z-0 block lg:hidden xl:flex flex-col items-center">
                     <div
                         class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
                         <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#2D97FF] p-3"
@@ -290,6 +370,40 @@
                     </div>
                     <p class="xl:text-white text-[#2D97FF] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white xl:bg-transparent rounded-3xl xl:rounded-0">Final Export</p>
                 </div>
+
+                {{-- lg client feedback,final export --}}
+
+                 {{-- lg final export --}}
+                 <div class="z-0 hidden xl:hidden lg:flex flex-col items-center">
+                    <div
+                        class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
+                        <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#2D97FF] p-3"
+                            src="{{ asset('images/home/Group8161.svg') }}" alt="client" />
+                    </div>
+                    <p class="lg:text-white text-[#2D97FF] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white lg:bg-transparent rounded-3xl lg:rounded-0">Final Export</p>
+                </div>
+
+                 {{-- lg Data production --}}
+                 <div class="hidden xl:hidden lg:flex relative">
+                    <div class="z-0 flex flex-col items-center">
+                        <div
+                            class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
+                            <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#FBBD4E] p-2"
+                                src="{{ asset('images/home/Group8157.svg') }}" alt="client" />
+                        </div>
+                        <p class="lg:text-white text-[#FBBD4E] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white lg:bg-transparent rounded-3xl lg:rounded-0">Data Production</p>
+                    </div>
+                    <div class="absolute mt-2 2xl:-translate-x-36 lg:-translate-x-48 lg:translate-y-10 xl:-translate-x-32 translate-x-[3.4rem] translate-y-48">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-20 h-20 fill-[#FBBD4E] stroke-none rotate-90 xl:rotate-90 lg:rotate-180" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                        </svg>
+                    </div>
+                </div>
+
+
+                 {{--end  lg client feedback,final export --}}
 
             </div>
             {{-- end mobileview 2nd grid --}}

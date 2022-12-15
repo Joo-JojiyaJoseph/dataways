@@ -6,7 +6,7 @@
                 <div class="h-60 md:h-72 md:-translate-y-8">
                     <img src="{{ asset('images/logo/logo-footer.svg') }}" class="h-full w-full pt-8" alt="dataways">
                 </div>
-                 <div class="lg:border-r h-60 lg:border-white/75"></div>
+                 <div class="hidden lg:block lg:border-r h-60 lg:border-white/75"></div>
                 {{-- Home --}}
                 <div class="hidden lg:block">
                     <h5 class="font-medium md:text-xl py-2">Our Industries</h5>
@@ -30,12 +30,61 @@
 
                     </ul>
                 </div>
-                <div class="lg:border-r h-60 lg:border-white/75"></div>
+
+   {{-- our industry Mobile --}}
+   <div x-data="{ our_industry: false, entities_mobile: false }" class="border-b border-white py-4 sm:hidden">
+    <button @click="our_industry = !our_industry" class="flex items-center justify-between w-full">
+        <p class="font-medium text-white">Our Industries</p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+            class="w-5 h-5 transition-transform duration-150" :class="{ 'rotate-45': our_industry }">
+            <path
+                d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" />
+        </svg>
+    </button>
+    <div x-show="our_industry" x-collapse  x-cloak>
+        <ul class="text-sm font-light py-2 space-y-2">
+            <li>
+                <a href="">Our Industries</a>
+            </li>
+
+            <li>
+                <a href="">Our Industries</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+    {{-- our service Mobile --}}
+    <div x-data="{ services: false }" class="border-b border-white py-2 sm:hidden">
+        <button @click="services = !services" class="flex items-center justify-between w-full">
+            <p class="font-medium">Our Services</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                class="w-5 h-5 transition-transform duration-150" :class="{ 'rotate-45': services }">
+                <path
+                    d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" />
+            </svg>
+        </button>
+        <div x-show="services" x-collapse  x-cloak>
+            <ul class="text-sm font-light py-2 space-y-2">
+                <li>
+                    <a href="">Our Services</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+                <div class="hidden lg:block lg:border-r h-60 lg:border-white/75"></div>
                 {{-- Contact --}}
-                <div class="mt-5 md:mt-0 sm:hidden lg:block">
+                <div class="mt-5 md:mt-0 lg:block">
 
                     <ul class=" font-light space-y-2">
-                        <li class="hidden sm:block">
+                        <li class=" sm:block">
                             <div class="flex items-start gap-x-3 text-sm md:text-base md:mb-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor"
@@ -80,7 +129,9 @@
                                 </div>
                             </div>
                         </li>
-                        <ul class="flex items-center justify-center lg:justify-start gap-x-4 lg:gap-x-8 pt-10 pl-3">
+
+                        <div class="block lg:hidden border-t h-1 border-white/75 pt-5"></div>
+                        <ul class="flex items-center justify-center lg:justify-start gap-x-4 lg:gap-x-8 xl:pt-10 pt-5 xl:pl-3">
                             <li>
                                 <a href="" target="_blank">
                                     <img src="{{ asset('images/icons/facebook.svg') }}" class="h-3 w-3 md:h-4 md:w-4"
@@ -122,13 +173,13 @@
             </div>
 
             <div class=" md:p-20 flex flex-col lg:flex-row gap-y-6 lg:gap-y-0 lg:items-center justify-between px-5 lg:px-0 py-6 lg:py-8 w-full">
-                <div class="flex items-center justify-between lg:justify-start gap-x-8 font-light text-xs md:text-sm">
+                <div class="hidden lg:flex items-center justify-between lg:justify-start gap-x-8 font-light text-xs md:text-sm">
                     <p>Priavcy Policy</p>
                 </div>
                 <div class="font-light text-center lg:text-start text-xs lg:text-sm">
                     <p>Copyright © 2022. All rights reserved by Dataways</p>
                 </div>
-                <div class="font-light text-center lg:text-start text-xs lg:text-sm">
+                <div class="hidden lg:block font-light text-center lg:text-start text-xs lg:text-sm">
                     <p>
                         Terms & Conditions
                     </p>
