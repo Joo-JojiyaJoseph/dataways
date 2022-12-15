@@ -34,7 +34,7 @@
     </body> --}}
 
     <body x-data="{ isSideMenuOpen: false }" class="font-poppins antialiased" :class="{ 'overflow-hidden': isSideMenuOpen }" x-cloak>
-        <div class="min-h-screen">
+        <div class="min-h-screen bg-dark-blue">
 
             {{-- Navigation --}}
             <x-navigation />

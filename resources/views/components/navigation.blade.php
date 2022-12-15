@@ -1,4 +1,4 @@
-<nav class="w-full fixed z-50 scrolled transition-all ease-linear py-5" id="navbar">
+<nav class="w-full  z-50 scrolled transition-all ease-linear py-5" id="navbar">
     <div class="flex items-center justify-between py-4 md:py-3 lg:w-full xl:w-[85%] mx-auto px-4 md:px-4 lg:px-0">
         <div class="">
             <a href="{{ route('home') }}">
@@ -28,7 +28,7 @@
 
                   {{-- About --}}
                   <li class="relative group">
-                    <a href="" class="py-6 px-3" :class= "{'text-white' : {{ request()->routeIs('home') }}}">
+                    <a href="{{ route('about') }}" class="py-6 px-3">
                         About
                         @if (request()->routeIs('about'))
                             <div
