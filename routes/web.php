@@ -32,5 +32,6 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('about', [PageController::class, 'about'])->name('about');
+Route::get('service', [PageController::class, 'service'])->name('service');
 
 require __DIR__.'/auth.php';

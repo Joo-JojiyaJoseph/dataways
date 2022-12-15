@@ -7,14 +7,13 @@
             <div class="-translate-y-10">
                 <img src="{{ asset('images/about/home.png') }}" alt="">
             </div>
-            <div class="w-[25rem] md:w-[52rem]">
+            <div class="w-[25rem] md:w-[52rem] -translate-y-20">
                 <h1 class="sm:text-5xl lg:text-7xl 2xl:text-8xl text-white font-bold ">
                     Your Quest For</h1>
 
                     <h1 class="sm:text-5xl lg:text-7xl 2xl:text-8xl text-sky-blue font-bold mt-1">
                         AI Data Ends Here
                     </h1>
-
             </div>
         </div>
     </section>
@@ -87,7 +86,7 @@
             <div class="grid grid-cols-1 xl:grid-cols-3 gap-y-10 place-items-center items-baseline gap-x-10 px-5 md:px-0">
 
                 {{-- Dedicated Team --}}
-                <div class="px-5 py-5 rounded-3xl shadow-2xl bg-light-blue md:w-[40rem] xl:w-[25rem]" x-data="{ dedicated: false }">
+                <div class="px-5 py-5 rounded-3xl shadow-2xl bg-light-salt md:w-[40rem] xl:w-[25rem]" x-data="{ dedicated: false }">
                     <div class="h-16 w-16 sm:h-20 sm:w-20 flex justify-center items-center  bg-[#00BB6B] rounded-full mb-2 sm:mb-5">
                         <svg id="Group_8266" data-name="Group 8266" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="h-10 w-10 md:h-12 md:w-12" viewBox="0 0 61.949 45.516">
                             <defs>
@@ -134,7 +133,7 @@
                 </div>
 
                 {{-- Reasonable Price --}}
-                <div class="px-5 py-5 rounded-3xl shadow-2xl bg-light-blue md:w-[40rem] xl:w-[25rem]" x-data="{ reasonable: false }">
+                <div class="px-5 py-5 rounded-3xl shadow-2xl bg-light-salt md:w-[40rem] xl:w-[25rem]" x-data="{ reasonable: false }">
                     <div class="h-16 w-16 sm:h-20 sm:w-20 flex justify-center items-center  bg-[#FE9D00] rounded-full mb-2 sm:mb-5">
                         <svg id="Group_8268" data-name="Group 8268" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="h-10 w-10 md:h-12 md:w-12" viewBox="0 0 50.579 61.314">
                             <defs>
@@ -185,7 +184,7 @@
                 </div>
 
                 {{-- Quality Paramount --}}
-                <div class="px-5 py-5 rounded-3xl shadow-2xl bg-light-blue md:w-[40rem] xl:w-[25rem]" x-data="{ quality: false }">
+                <div class="px-5 py-5 rounded-3xl shadow-2xl bg-light-salt md:w-[40rem] xl:w-[25rem]" x-data="{ quality: false }">
                     <div class="h-16 w-16 sm:h-20 sm:w-20 flex justify-center items-center  bg-[#015DAA] rounded-full mb-2 sm:mb-5">
                         <svg id="Group_8272" data-name="Group 8272" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="h-10 w-10 md:h-12 md:w-12" viewBox="0 0 51.565 51.614">
                             <defs>
@@ -235,7 +234,7 @@
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-y-10 place-items-center items-baseline px-5 mt-10 xl:px-52">
 
                 {{-- Feasibility Study --}}
-                <div class="px-5 py-5 rounded-3xl shadow-2xl bg-light-blue md:w-[40rem] xl:w-[25rem]" x-data="{ feasibility: false }">
+                <div class="px-5 py-5 rounded-3xl shadow-2xl bg-light-salt md:w-[40rem] xl:w-[25rem]" x-data="{ feasibility: false }">
                     <div class="h-16 w-16 sm:h-20 sm:w-20 flex justify-center items-center  bg-[#FE9D00] rounded-full mb-2 sm:mb-5">
                         <svg id="Group_8274" data-name="Group 8274" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="h-10 w-10 md:h-12 md:w-12" viewBox="0 0 48.652 48.642">
                             <defs>
@@ -279,7 +278,7 @@
                 </div>
 
                 {{-- Utmost Privacy --}}
-                <div class="px-5 py-5 rounded-3xl shadow-2xl bg-light-blue md:w-[40rem] xl:w-[25rem] xl:ml-2" x-data="{ utmost: false }">
+                <div class="px-5 py-5 rounded-3xl shadow-2xl bg-light-salt md:w-[40rem] xl:w-[25rem] xl:ml-2" x-data="{ utmost: false }">
                     <div class="h-16 w-16 sm:h-20 sm:w-20 flex justify-center items-center  bg-[#015DAA] rounded-full mb-2 sm:mb-5">
                         <svg id="Group_8276" data-name="Group 8276" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="h-10 w-10 md:h-12 md:w-12" viewBox="0 0 50.13 50.131">
                             <defs>

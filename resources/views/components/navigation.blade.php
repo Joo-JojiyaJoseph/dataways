@@ -97,21 +97,21 @@
 
                     {{-- services --}}
                 <li>
-                    <a href="" class="py-4 px-3 relative" :class= "{'text-white' : {{ request()->routeIs('home') }}}" target="_blank">
+                    <a href="{{ route('service') }}" class="py-4 px-3 relative" :class= "{'text-white' : {{ request()->routeIs('home') }}}">
                         Services
                     </a>
                 </li>
 
                 {{-- Career --}}
                 <li>
-                    <a href="" class="py-4 px-3 relative" :class= "{'text-white' : {{ request()->routeIs('home') }}}" target="_blank">
+                    <a href="" class="py-4 px-3 relative" :class= "{'text-white' : {{ request()->routeIs('home') }}}">
                         Career
                     </a>
                 </li>
 
                   {{-- Contact Us --}}
                   <li>
-                    <a href="" class="py-2 px-6 rounded-lg relative border-4" :class= "{'text-white' : {{ request()->routeIs('home') }}}" target="_blank">
+                    <a href="" class="py-2 px-6 rounded-lg relative border-4" :class= "{'text-white' : {{ request()->routeIs('home') }}}">
                         Contact Us
                     </a>
                 </li>
@@ -120,7 +120,7 @@
             </ul>
         </div>
 
-        
+
 
         <div class="flex lg:hidden">
             @if (request()->routeIs('home'))

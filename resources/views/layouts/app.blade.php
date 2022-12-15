@@ -7,8 +7,15 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
+        <!-- Swiper JS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
+
+
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -61,5 +68,6 @@
             <x-footer />
         </div>
         @yield('scripts')
+
     </body>
 </html>
