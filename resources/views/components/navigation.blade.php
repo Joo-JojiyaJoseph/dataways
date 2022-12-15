@@ -120,17 +120,9 @@
             </ul>
         </div>
 
-        {{-- <div class="hidden lg:block">
-            <a href="images\culture_book\culture_book.pdf" class="py-4 px-3 relative" download="Infolk Group Culture Book">
-                @if (request()->routeIs('home'))
-                <button class="px-5 py-2 bg-white rounded-full text-dark-blue text-lg">Culture Book</button>
-                @else
-                <button class="px-5 py-2 bg-dark-blue rounded-full text-white text-lg culture_book" id="culture">Culture Book</button>
-                @endif
-            </a>
-        </div> --}}
+        
 
-        {{-- <div class="flex lg:hidden">
+        <div class="flex lg:hidden">
             @if (request()->routeIs('home'))
             <button x-on:click.prevent="isSideMenuOpen = !isSideMenuOpen" class="text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -149,6 +141,6 @@
             </button>
             @endif
 
-        </div> --}}
+        </div>
     </div>
 </nav>

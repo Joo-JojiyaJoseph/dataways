@@ -40,7 +40,7 @@
             <x-navigation />
 
             {{-- Responsive-Nav --}}
-            {{-- <x-nav-mobile /> --}}
+            <x-nav-mobile />
 
             <!-- Page Heading -->
             @if (isset($header))
