@@ -13,8 +13,8 @@
                 class="place-items-center xl:pl-20 pl-5 grid grid-cols-3  lg:grid-cols-2 md:py-20  lg:h-screen ">
                 <div
                     class=" ml-20 lg:ml-0 flex items-center flex-col justify-center border-4 border-white rounded-[282px]  h-[280px] w-[300px]  md:h-[500px] md:w-[370px]  xl:h-[600px] xl:w-[370px] 2xl:h-[700px] 2xl:w-[475px] ">
-                    <div class="border-8 border-white rounded-[282px]  h-[230px] w-[250px] md:h-[450px] md:w-[325px]  xl:h-[550px] xl:w-[325px] 2xl:h-[650px] 2xl:w-[425px] bg-cover"
-                        style="background-image: url({{ asset('images/home/Image40.png') }})">
+                    <div class="border-8 border-white rounded-[282px]  h-[230px] w-[250px] md:h-[450px] md:w-[325px]  xl:h-[550px] xl:w-[325px] 2xl:h-[650px] 2xl:w-[425px] bg-cover "
+                        style="background-image: url({{ asset('images/home/hero.png') }})">
                     </div>
                 </div>
                 <div
