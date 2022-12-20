@@ -3,7 +3,7 @@
     <x-slot name="title">gallery</x-slot>
 
      {{-- Hero Section --}}
-     <section class="bg-light-blue  xl:py-10 pt-36  overflow-x-hidden ">
+     <section class="bg-light-blue  xl:py-10 pt-36  overflow-hidden ">
 
         <div class="container mx-auto relative ">
             <div class="absolute hidden lg:block lg:h-screen  pt-20 ">
@@ -27,24 +27,28 @@
                         From Infolks Group</p>
                 </div>
             </div>
-
         </div>
 
-        <div class=" text-white mx-auto text-center xl:text-2xl  xl:p-20 lg:p-10 p-5 ">
-            <p>As a data providing company, Dataways collects and processes supervised training and testing
+    </section>
+    {{-- End Hero Section --}}
+
+     {{-- content--}}
+
+    <section class="bg-light-blue xl:py-10 ">
+        <div class="container  mx-auto text-center  ">
+            <p class=" text-white  text-center xl:text-2xl  ">As a data providing company, Dataways collects and processes supervised training and testing
                 datasets, including image, text, audio, video, and 3D Point Cloud for machine learning
                 algorithms.We outsource both uncomplicated data collection use cases and lengthy, linguistically
                 challenging tasks with our pre-built data collection tools.</p>
         </div>
     </section>
-    {{-- End Hero Section --}}
-
+     {{-- End content --}}
 
     {{-- how it work --}}
     <section class="bg-light-blue  pb-20 ">
         <div class="container mx-auto">
             <div class="py-10 ">
-                <h1 class=" text-3xl 2xl:text-5xl xl:text-4xl font-semibold text-center text-white   ">
+                <h1 class=" text-3xl 2xl:text-6xl xl:text-4xl font-semibold text-center text-white   ">
                     How It <span class="text-sky-blue">Works</span>
                 </h1>
                 <div class="mx-auto h-1 w-[100px] bg-white  top-5 right-3 mt-5 rounded-full under_line" id="under_line">
@@ -453,7 +457,7 @@
     <section class="bg-dark-blue  pb-20 ">
         <div class="mx-auto">
             <div class="py-10 ">
-                <h1 class="text-3xl 2xl:text-5xl xl:text-4xl font-semibold text-center text-white ">
+                <h1 class="text-3xl 2xl:text-6xl xl:text-4xl font-semibold text-center text-white ">
                     Our <span class="text-sky-blue">Industries</span>
                 </h1>
                 <div class="mx-auto h-1 w-[100px] bg-white  top-5 right-3 mt-5 rounded-full under_line"
@@ -473,17 +477,15 @@
                                     src="{{ asset('images/home/human_attribution.png') }}" />
                             </div>
                             <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                <div class=" flex flex-col justify-center ">
-                                    <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                <div class=" flex flex-col justify-center pb-5 ">
+                                    <h1 class="  text-dark-blue   font-bold   text-2xl 2xl:text-4xl ">
                                         Human attribution
                                     </h1>
                                 </div>
-                                <p class="  text-light-gray  text-justify   ">We
-                                    Over the past decade artificial intelligence that ranges from several applications
-                                    has been progressing.
-                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak>Over the
-                                        past decade artificial intelligence that ranges from several applications has
-                                        been progressing.</span>
+                                <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl    ">We
+                                    Over the past decade artificial intelligence that ranges from several applications has been progressing in the field of contactless
+                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak>personal identification to recognize human features like face and body attribution for various purposes.  We have a database that contains data gathered by our team of highly motivated individuals using pre-built tools that have been developed using very latest innovation.
+                                    </span>
                                 </p>
                                 <div class="flex justify-end pt-2">
                                     <span x-show="! open" x-cloak>
@@ -534,15 +536,13 @@
                                     src="{{ asset('images/home/technology.png') }}" />
                             </div>
                             <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                <div class=" flex flex-col justify-center ">
-                                    <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                <div class=" flex flex-col justify-center pb-5 ">
+                                    <h1 class="  text-dark-blue   font-bold   text-2xl 2xl:text-4xl">
                                         Technology
                                     </h1>
                                 </div>
-                                <p class="  text-light-gray  text-justify">In the contemporary world, artificial
-                                    intelligence and machine learning are emerging phenomena that are
-                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak> that are
-                                        applicable to a variety of technologies.</span>
+                                <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">In the contemporary world, artificial intelligence and machine learning are emerging phenomena that are applicable to a variety of
+                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak>technologies. It is crucial to have a lot of premium training data in order to guarantee its effectiveness. In order to produce cutting-edge products and enhance the customer experience, search engines and other top technology organizations use machine learning. They need big, high-quality datasets, not just any kind of data will suffice for these algorithms.</span>
                                 </p>
                                 <div class="flex justify-end pt-2">
                                     <span x-show="! open" x-cloak>
@@ -595,16 +595,14 @@
                                     src="{{ asset('images/home/healthcare.png') }}" />
                             </div>
                             <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                <div class=" flex flex-col justify-center ">
-                                    <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                <div class=" flex flex-col justify-center pb-5 ">
+                                    <h1 class=" text-dark-blue   font-bold   text-2xl 2xl:text-4xl">
                                         Healthcare
                                     </h1>
                                 </div>
-                                <p class="  text-light-gray  text-justify">Machine learning has been firmly established
-                                    in the medical industry, which has been expanding day by.
-                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak> Machine
-                                        learning has been firmly established in the medical industry, which has been
-                                        expanding day by day.</span>
+                                <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">Machine learning has been firmly established in the medical industry, which has been expanding day by day. It  has a strong potential
+                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak> to completely transform the healthcare industry by assisting in the handling of extremely huge volumes of data. Large medical data sets are processed for insights that can be implemented to improve clinical decision-making, patient outcomes, automate daily tasks for health practitioners, speed up medical research, and increase operational effectiveness.
+                                    </span>
                                 </p>
                                 <div class="flex justify-end pt-2">
                                     <span x-show="! open" x-cloak>
@@ -660,16 +658,14 @@
                                     src="{{ asset('images/home/healthcare.png') }}" />
                             </div>
                             <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                <div class=" flex flex-col justify-center ">
-                                    <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                <div class=" flex flex-col justify-center pb-5 ">
+                                    <h1 class=" text-dark-blue   font-bold   text-2xl 2xl:text-4xl ">
                                         Healthcare
                                     </h1>
                                 </div>
-                                <p class="  text-light-gray  text-justify">Machine learning has been firmly established
-                                    in the medical industry, which has been expanding day by.
-                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak> Machine
-                                        learning has been firmly established in the medical industry, which has been
-                                        expanding day by day.</span>
+                                <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">Machine learning has been firmly established in the medical industry, which has been expanding day by day. It  has a strong potential
+                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak>to completely transform the healthcare industry by assisting in the handling of extremely huge volumes of data. Large medical data sets are processed for insights that can be implemented to improve clinical decision-making, patient outcomes, automate daily tasks for health practitioners, speed up medical research, and increase operational effectiveness.
+                                    </span>
                                 </p>
                                 <div class="flex justify-end pt-2">
                                     <span x-show="! open" x-cloak>
@@ -719,16 +715,14 @@
                                     src="{{ asset('images/home/retail.png') }}" />
                             </div>
                             <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                <div class=" flex flex-col justify-center ">
-                                    <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                <div class=" flex flex-col justify-center pb-5 ">
+                                    <h1 class=" text-dark-blue   font-bold   text-2xl 2xl:text-4xl ">
                                         Retail
                                     </h1>
                                 </div>
-                                <p class="  text-light-gray  text-justify">In order to create a wonderful online
-                                    shopping experience for customers, machine learning and AI are
-                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak> In order
-                                        to create a wonderful online shopping experience for customers, machine learning
-                                        and AI are currently being used in the retail sector.</span>
+                                <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">In order to create a wonderful online shopping experience for customers, machine learning and AI are currently being used in the retail sector.
+                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak> We offer high-quality training data sets for AI algorithms that can improve the retail sector, including data gathered from sales, barcodes, and other sources. With the aid of our top-notch training data, Dataways is here to assist you in developing and obtaining the optimization of your AI solutions for client delivery, search engine optimization, and more.
+                                    </span>
                                 </p>
                                 <div class="flex justify-end pt-2">
                                     <span x-show="! open" x-cloak>
@@ -781,15 +775,14 @@
                                     src="{{ asset('images/home/automation.png') }}" />
                             </div>
                             <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                <div class=" flex flex-col justify-center ">
-                                    <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                <div class=" flex flex-col justify-center pb-5 ">
+                                    <h1 class=" text-dark-blue   font-bold   text-2xl 2xl:text-4xl ">
                                         Automation
                                     </h1>
                                 </div>
-                                <p class="  text-light-gray  text-justify">The automotive sector has been completely
-                                    transformed by artificial intelligence, which has
-                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak> which has
-                                        accelerated the development of autonomous vehicles. </span>
+                                <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">The automotive sector has been completely transformed by artificial intelligence, which has accelerated the development of  autonomous
+                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak> vehicles. With the advent of self-driving automobiles, this industry is experiencing a tremendous increase in investment potential.We offer data for the automotive sector, which is based on a complex network of structures that gather data from outside the vehicle.
+                                    </span>
                                 </p>
                                 <div class="flex justify-end pt-2">
                                     <span x-show="! open" x-cloak>
@@ -842,16 +835,14 @@
                                     src="{{ asset('images/home/agriculture.png') }}" />
                             </div>
                             <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                <div class=" flex flex-col justify-center ">
-                                    <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                <div class=" flex flex-col justify-center pb-5 ">
+                                    <h1 class=" text-dark-blue   font-bold   text-2xl 2xl:text-4xl ">
                                         Agriculture
                                     </h1>
                                 </div>
-                                <p class="  text-light-gray  text-justify">Different digital technologies, including
-                                    AI, are being adopted by farmers in various nations.
-                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak> Different
-                                        digital technologies, including AI, are being adopted by farmers in various
-                                        nations. </span>
+                                <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">Different digital technologies, including AI, are being adopted by farmers in various nations. Data is being collected from this industry
+                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak> for the purpose of training AI algorithm models to detect crops, identify traceability,  monitor the crops health etc in the harvesting processThe security precautions we take during the data production process ensure that the data we provide is always secure. Our process of production of data is secured and guaranteed that your data will stay protected at all times.
+                                    </span>
                                 </p>
                                 <div class="flex justify-end pt-2">
                                     <span x-show="! open" x-cloak>
@@ -904,16 +895,15 @@
                                     src="{{ asset('images/home/logistics.png') }}" />
                             </div>
                             <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                <div class=" flex flex-col justify-center ">
-                                    <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                <div class=" flex flex-col justify-center pb-5 ">
+                                    <h1 class="  text-dark-blue   font-bold   text-2xl 2xl:text-4xl ">
                                         Logistics
                                     </h1>
                                 </div>
-                                <p class="  text-light-gray  text-justify">Large-scale data analysis and better
-                                    logistics management are made possible by machine learning
+                                <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">Large-scale data analysis and better logistics management are made possible by machine learning for logistics service providers. Globally,
                                     <span x-show="open" @click.outside="open = false" x-transition x-cloak>
-                                        Large-scale data analysis and better logistics management are made possible by
-                                        machine learning for logistics service providers. </span>
+                                         businesses are quickly implementing this technology to enhance a variety of business workflows. With the aid of our top rated training data we can ensure a fully optimized and adequate algorithm for you.
+                                     </span>
                                 </p>
                                 <div class="flex justify-end pt-2">
                                     <span x-show="! open" x-cloak>
@@ -966,17 +956,14 @@
                                     src="{{ asset('images/home/sports.png') }}" />
                             </div>
                             <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                <div class=" flex flex-col justify-center ">
-                                    <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                <div class=" flex flex-col justify-center pb-5 ">
+                                    <h1 class="text-dark-blue   font-bold   text-2xl 2xl:text-4xl ">
                                         Sports
                                     </h1>
                                 </div>
-                                <p class="  text-light-gray  text-justify">In this new generation's sports and gaming,
-                                    AI is becoming an increasingly prevalent phenomena for
-                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak> In this
-                                        new generation's sports and gaming, AI is becoming an increasingly prevalent
-                                        phenomena for the purpose of player tracking, player segmentation, action
-                                        identification, player position tracking etc. </span>
+                                <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">In this new generation's sports and gaming, AI is becoming an increasingly prevalent phenomena for the purpose of player tracking,
+                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak>player segmentation, action identification, player position tracking etc. Thanks to AI, player performance analysis has advanced beyond all previous levels and it aids in boosting performance and health. By offering our highly qualified training data, we assist you in improving your AI model so that it dominates the sports industry.
+                                    </span>
                                 </p>
                                 <div class="flex justify-end pt-2">
                                     <span x-show="! open" x-cloak>
@@ -1028,16 +1015,14 @@
                                     src="{{ asset('images/home/financial_services.png') }}" />
                             </div>
                             <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                <div class=" flex flex-col justify-center ">
-                                    <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                <div class=" flex flex-col justify-center pb-5 ">
+                                    <h1 class=" text-dark-blue   font-bold   text-2xl 2xl:text-4xl ">
                                         Financial Services
                                     </h1>
                                 </div>
-                                <p class="  text-light-gray  text-justify">AI is applied in finance to provide a
-                                    solution that may change how we distribute credit and risk, leading to
-                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak>AI is
-                                        applied in finance to provide a solution that may change how we distribute
-                                        credit and risk, leading to better, more competitive systems</span>
+                                <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">AI is applied in finance to provide a solution that may change how we distribute credit and risk, leading to better, more competitive systems.
+                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak>We routinely gather vast amounts of data in the finance sector, including customer records, details on stock trading, investment trends etc and offer high-caliber data that is of the utmost importance for the algorithms that support AI automation processes and systems in order for them to fully function and remain optimized.
+                                    </span>
                                 </p>
                                 <div class="flex justify-end pt-2">
                                     <span x-show="! open" x-cloak>
@@ -1090,16 +1075,14 @@
                                     src="{{ asset('images/home/government.png') }}" />
                             </div>
                             <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                <div class=" flex flex-col justify-center ">
-                                    <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                <div class=" flex flex-col justify-center pb-5 ">
+                                    <h1 class=" text-dark-blue   font-bold   text-2xl 2xl:text-4xl">
                                         Government
                                     </h1>
                                 </div>
-                                <p class="  text-light-gray  text-justify">By automating a variety of labor-intensive
-                                    data processing and analysis processes, machine learning.
-                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak>By
-                                        automating a variety of labor-intensive data processing and analysis processes,
-                                        machine learning can enhance the government. </span>
+                                <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">By automating a variety of labor-intensive data processing and analysis processes, machine learning can enhance the government.
+                                    <span x-show="open" @click.outside="open = false" x-transition x-cloak>As a result the efficiency and responsiveness of government operations will expand widely. Our devoted data gathering crews are well-connected with government organizations, various police forces, and local authorities that trust us to support and provide best security services for the data needs.
+                                    </span>
                                 </p>
                                 <div class="flex justify-end pt-2">
                                     <span x-show="! open" x-cloak>
@@ -1160,18 +1143,14 @@
                                         src="{{ asset('images/home/retail.png') }}" />
                                 </div>
                                 <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                    <div class=" flex flex-col justify-center ">
-                                        <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                    <div class=" flex flex-col justify-center pb-5 ">
+                                        <h1 class=" text-dark-blue   font-bold   text-2xl 2xl:text-4xl ">
                                             Retail
                                         </h1>
                                     </div>
-                                    <p class="  text-light-gray  text-justify">In order to create a wonderful online
-                                        shopping experience for customers, machine learning and AI are
-                                        <span x-show="open" @click.outside="open = false" x-transition x-cloak> In
-                                            order
-                                            to create a wonderful online shopping experience for customers, machine
-                                            learning
-                                            and AI are currently being used in the retail sector.</span>
+                                    <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">In order to create a wonderful online shopping experience for customers, machine learning and AI are currently being used in the retail sector.
+                                        <span x-show="open" @click.outside="open = false" x-transition x-cloak> We offer high-quality training data sets for AI algorithms that can improve the retail sector, including data gathered from sales, barcodes, and other sources. With the aid of our top-notch training data, Dataways is here to assist you in developing and obtaining the optimization of your AI solutions for client delivery, search engine optimization, and more.
+                                        </span>
                                     </p>
                                     <div class="flex justify-end pt-2">
                                         <span x-show="! open" x-cloak>
@@ -1224,17 +1203,14 @@
                                         src="{{ asset('images/home/automation.png') }}" />
                                 </div>
                                 <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                    <div class=" flex flex-col justify-center ">
-                                        <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                    <div class=" flex flex-col justify-center pb-5 ">
+                                        <h1 class=" text-dark-blue   font-bold   text-2xl 2xl:text-4xl">
                                             Automation
                                         </h1>
                                     </div>
-                                    <p class="  text-light-gray  text-justify">The automotive sector has been
-                                        completely
-                                        transformed by artificial intelligence, which has
-                                        <span x-show="open" @click.outside="open = false" x-transition x-cloak> which
-                                            has
-                                            accelerated the development of autonomous vehicles. </span>
+                                    <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">The automotive sector has been completely transformed by artificial intelligence, which has accelerated the development of  autonomous
+                                        <span x-show="open" @click.outside="open = false" x-transition x-cloak> vehicles. With the advent of self-driving automobiles, this industry is experiencing a tremendous increase in investment potential.We offer data for the automotive sector, which is based on a complex network of structures that gather data from outside the vehicle.
+                                        </span>
                                     </p>
                                     <div class="flex justify-end pt-2">
                                         <span x-show="! open" x-cloak>
@@ -1287,18 +1263,15 @@
                                         src="{{ asset('images/home/agriculture.png') }}" />
                                 </div>
                                 <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                    <div class=" flex flex-col justify-center ">
-                                        <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                    <div class=" flex flex-col justify-center pb-5 ">
+                                        <h1 class=" text-dark-blue   font-bold   text-2xl 2xl:text-4xl ">
                                             Agriculture
                                         </h1>
                                     </div>
-                                    <p class="  text-light-gray  text-justify">Different digital technologies,
-                                        including
-                                        AI, are being adopted by farmers in various nations.
+                                    <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">Different digital technologies, including AI, are being adopted by farmers in various nations. Data is being collected from this industry
                                         <span x-show="open" @click.outside="open = false" x-transition x-cloak>
-                                            Different
-                                            digital technologies, including AI, are being adopted by farmers in various
-                                            nations. </span>
+                                             for the purpose of training AI algorithm models to detect crops, identify traceability,  monitor the crops health etc in the harvesting processThe security precautions we take during the data production process ensure that the data we provide is always secure. Our process of production of data is secured and guaranteed that your data will stay protected at all times.
+                                        </span>
                                     </p>
                                     <div class="flex justify-end pt-2">
                                         <span x-show="! open" x-cloak>
@@ -1351,17 +1324,15 @@
                                         src="{{ asset('images/home/logistics.png') }}" />
                                 </div>
                                 <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                    <div class=" flex flex-col justify-center ">
-                                        <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                    <div class=" flex flex-col justify-center pb-5 ">
+                                        <h1 class=" text-dark-blue   font-bold   text-2xl 2xl:text-4xl">
                                             Logistics
                                         </h1>
                                     </div>
-                                    <p class="  text-light-gray  text-justify">Large-scale data analysis and better
-                                        logistics management are made possible by machine learning
+                                    <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">Large-scale data analysis and better logistics management are made possible by machine learning for logistics service  providers. Globally,
                                         <span x-show="open" @click.outside="open = false" x-transition x-cloak>
-                                            Large-scale data analysis and better logistics management are made possible
-                                            by
-                                            machine learning for logistics service providers. </span>
+                                             businesses are quickly implementing this technology to enhance a variety of business workflows. With the aid of our top rated training data we can ensure a fully optimized and adequate algorithm for you.
+                                   </span>
                                     </p>
                                     <div class="flex justify-end pt-2">
                                         <span x-show="! open" x-cloak>
@@ -1414,19 +1385,14 @@
                                         src="{{ asset('images/home/sports.png') }}" />
                                 </div>
                                 <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                    <div class=" flex flex-col justify-center ">
-                                        <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                    <div class=" flex flex-col justify-center pb-5 ">
+                                        <h1 class="text-dark-blue   font-bold   text-2xl 2xl:text-4xl ">
                                             Sports
                                         </h1>
                                     </div>
-                                    <p class="  text-light-gray  text-justify">In this new generation's sports and
-                                        gaming,
-                                        AI is becoming an increasingly prevalent phenomena for
-                                        <span x-show="open" @click.outside="open = false" x-transition x-cloak> In
-                                            this
-                                            new generation's sports and gaming, AI is becoming an increasingly prevalent
-                                            phenomena for the purpose of player tracking, player segmentation, action
-                                            identification, player position tracking etc. </span>
+                                    <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">In this new generation's sports and gaming, AI is becoming an increasingly prevalent phenomena for the purpose of player tracking,
+                                        <span x-show="open" @click.outside="open = false" x-transition x-cloak>player segmentation, action identification, player position tracking etc. Thanks to AI, player performance analysis has advanced beyond all previous levels and it aids in boosting performance and health. By offering our highly qualified training data, we assist you in improving your AI model so that it dominates the sports industry.
+                                        </span>
                                     </p>
                                     <div class="flex justify-end pt-2">
                                         <span x-show="! open" x-cloak>
@@ -1478,16 +1444,14 @@
                                         src="{{ asset('images/home/financial_services.png') }}" />
                                 </div>
                                 <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                    <div class=" flex flex-col justify-center ">
-                                        <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                    <div class=" flex flex-col justify-center pb-5 ">
+                                        <h1 class=" text-dark-blue   font-bold   text-2xl 2xl:text-4xl ">
                                             Financial Services
                                         </h1>
                                     </div>
-                                    <p class="  text-light-gray  text-justify">AI is applied in finance to provide a
-                                        solution that may change how we distribute credit and risk, leading to
-                                        <span x-show="open" @click.outside="open = false" x-transition x-cloak>AI is
-                                            applied in finance to provide a solution that may change how we distribute
-                                            credit and risk, leading to better, more competitive systems</span>
+                                    <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">AI is applied in finance to provide a solution that may change how we distribute credit and risk, leading to better, more competitive systems.
+                                        <span x-show="open" @click.outside="open = false" x-transition x-cloak> We routinely gather vast amounts of data in the finance sector, including customer records, details on stock trading, investment trends etc and offer high-caliber data that is of the utmost importance for the algorithms that support AI automation processes and systems in order for them to fully function and remain optimized.
+                                        </span>
                                     </p>
                                     <div class="flex justify-end pt-2">
                                         <span x-show="! open" x-cloak>
@@ -1540,18 +1504,14 @@
                                         src="{{ asset('images/home/government.png') }}" />
                                 </div>
                                 <div class=" bg-white p-5 h-auto rounded-3xl  ">
-                                    <div class=" flex flex-col justify-center ">
-                                        <h1 class="  text-dark-blue   font-bold   text-2xl ">
+                                    <div class=" flex flex-col justify-center pb-5 ">
+                                        <h1 class=" text-dark-blue   font-bold   text-2xl 2xl:text-4xl">
                                             Government
                                         </h1>
                                     </div>
-                                    <p class="  text-light-gray  text-justify">By automating a variety of
-                                        labor-intensive
-                                        data processing and analysis processes, machine learning.
-                                        <span x-show="open" @click.outside="open = false" x-transition x-cloak>By
-                                            automating a variety of labor-intensive data processing and analysis
-                                            processes,
-                                            machine learning can enhance the government. </span>
+                                    <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">By automating a variety of labor-intensive data processing and analysis processes, machine learning can enhance the  government.
+                                        <span x-show="open" @click.outside="open = false" x-transition x-cloak> As a result the efficiency and responsiveness of government operations will expand widely. Our devoted data gathering crews are well-connected with government organizations, various police forces, and local authorities that trust us to support and provide best security services for the data needs.
+                                        </span>
                                     </p>
                                     <div class="flex justify-end pt-2">
                                         <span x-show="! open" x-cloak>
