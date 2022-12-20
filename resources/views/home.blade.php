@@ -487,39 +487,20 @@
                                     <span x-show="open" @click.outside="open = false" x-transition x-cloak>personal identification to recognize human features like face and body attribution for various purposes.  We have a database that contains data gathered by our team of highly motivated individuals using pre-built tools that have been developed using very latest innovation.
                                     </span>
                                 </p>
-                                <div class="flex justify-end pt-2">
-                                    <span x-show="! open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                    <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                    <span class="px-2">
+                                        <div
+                                        class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6 rotate-90"
+                                            :class="{ '-rotate-90': open }">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                        </svg>
+                                    </div>
                                     </span>
-                                    <span x-show="open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                    </span>
-                                    <a x-on:click="open = ! open">
-
-                                        <span x-show="open" x-cloak>
-                                            <div
-                                                class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-
-                                        <span x-show="! open" x-cloak>
-                                            <div
-                                                class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -544,41 +525,20 @@
                                 <p class="  text-light-gray  text-justify 2xl:text-xl md:text-lg text-xl">In the contemporary world, artificial intelligence and machine learning are emerging phenomena that are applicable to a variety of
                                     <span x-show="open" @click.outside="open = false" x-transition x-cloak>technologies. It is crucial to have a lot of premium training data in order to guarantee its effectiveness. In order to produce cutting-edge products and enhance the customer experience, search engines and other top technology organizations use machine learning. They need big, high-quality datasets, not just any kind of data will suffice for these algorithms.</span>
                                 </p>
-                                <div class="flex justify-end pt-2">
-                                    <span x-show="! open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                    <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                    <span class="px-2">
+                                        <div
+                                        class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6 rotate-90"
+                                            :class="{ '-rotate-90': open }">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                        </svg>
+                                    </div>
                                     </span>
-                                    <span x-show="open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                    </span>
-                                    <a x-on:click="open = ! open">
-
-                                        <span x-show="open" x-cloak>
-
-                                            <div
-                                                class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-
-                                        <span x-show="! open" x-cloak>
-
-                                            <div
-                                                class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -604,39 +564,20 @@
                                     <span x-show="open" @click.outside="open = false" x-transition x-cloak> to completely transform the healthcare industry by assisting in the handling of extremely huge volumes of data. Large medical data sets are processed for insights that can be implemented to improve clinical decision-making, patient outcomes, automate daily tasks for health practitioners, speed up medical research, and increase operational effectiveness.
                                     </span>
                                 </p>
-                                <div class="flex justify-end pt-2">
-                                    <span x-show="! open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                    <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                    <span class="px-2">
+                                        <div
+                                        class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6 rotate-90"
+                                            :class="{ '-rotate-90': open }">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                        </svg>
+                                    </div>
                                     </span>
-                                    <span x-show="open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                    </span>
-                                    <a x-on:click="open = ! open">
-
-                                        <span x-show="open" x-cloak>
-                                            <div
-                                                class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-
-                                        <span x-show="! open" x-cloak>
-                                            <div
-                                                class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -667,39 +608,20 @@
                                     <span x-show="open" @click.outside="open = false" x-transition x-cloak>to completely transform the healthcare industry by assisting in the handling of extremely huge volumes of data. Large medical data sets are processed for insights that can be implemented to improve clinical decision-making, patient outcomes, automate daily tasks for health practitioners, speed up medical research, and increase operational effectiveness.
                                     </span>
                                 </p>
-                                <div class="flex justify-end pt-2">
-                                    <span x-show="! open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                    <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                    <span class="px-2">
+                                        <div
+                                        class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6 rotate-90"
+                                            :class="{ '-rotate-90': open }">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                        </svg>
+                                    </div>
                                     </span>
-                                    <span x-show="open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                    </span>
-                                    <a x-on:click="open = ! open">
-
-                                        <span x-show="open" x-cloak>
-                                            <div
-                                                class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-
-                                        <span x-show="! open" x-cloak>
-                                            <div
-                                                class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -724,41 +646,20 @@
                                     <span x-show="open" @click.outside="open = false" x-transition x-cloak> We offer high-quality training data sets for AI algorithms that can improve the retail sector, including data gathered from sales, barcodes, and other sources. With the aid of our top-notch training data, Dataways is here to assist you in developing and obtaining the optimization of your AI solutions for client delivery, search engine optimization, and more.
                                     </span>
                                 </p>
-                                <div class="flex justify-end pt-2">
-                                    <span x-show="! open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                    <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                    <span class="px-2">
+                                        <div
+                                        class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6 rotate-90"
+                                            :class="{ '-rotate-90': open }">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                        </svg>
+                                    </div>
                                     </span>
-                                    <span x-show="open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                    </span>
-                                    <a x-on:click="open = ! open">
-
-                                        <span x-show="open" x-cloak>
-
-                                            <div
-                                                class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-
-                                        <span x-show="! open" x-cloak>
-
-                                            <div
-                                                class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -784,41 +685,20 @@
                                     <span x-show="open" @click.outside="open = false" x-transition x-cloak> vehicles. With the advent of self-driving automobiles, this industry is experiencing a tremendous increase in investment potential.We offer data for the automotive sector, which is based on a complex network of structures that gather data from outside the vehicle.
                                     </span>
                                 </p>
-                                <div class="flex justify-end pt-2">
-                                    <span x-show="! open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                    <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                    <span class="px-2">
+                                        <div
+                                        class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6 rotate-90"
+                                            :class="{ '-rotate-90': open }">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                        </svg>
+                                    </div>
                                     </span>
-                                    <span x-show="open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                    </span>
-                                    <a x-on:click="open = ! open">
-
-                                        <span x-show="open" x-cloak>
-
-                                            <div
-                                                class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-
-                                        <span x-show="! open" x-cloak>
-
-                                            <div
-                                                class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -844,41 +724,20 @@
                                     <span x-show="open" @click.outside="open = false" x-transition x-cloak> for the purpose of training AI algorithm models to detect crops, identify traceability,  monitor the crops health etc in the harvesting processThe security precautions we take during the data production process ensure that the data we provide is always secure. Our process of production of data is secured and guaranteed that your data will stay protected at all times.
                                     </span>
                                 </p>
-                                <div class="flex justify-end pt-2">
-                                    <span x-show="! open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                    <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                    <span class="px-2">
+                                        <div
+                                        class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6 rotate-90"
+                                            :class="{ '-rotate-90': open }">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                        </svg>
+                                    </div>
                                     </span>
-                                    <span x-show="open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                    </span>
-                                    <a x-on:click="open = ! open">
-
-                                        <span x-show="open" x-cloak>
-
-                                            <div
-                                                class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-
-                                        <span x-show="! open" x-cloak>
-
-                                            <div
-                                                class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -905,41 +764,20 @@
                                          businesses are quickly implementing this technology to enhance a variety of business workflows. With the aid of our top rated training data we can ensure a fully optimized and adequate algorithm for you.
                                      </span>
                                 </p>
-                                <div class="flex justify-end pt-2">
-                                    <span x-show="! open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                    <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                    <span class="px-2">
+                                        <div
+                                        class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6 rotate-90"
+                                            :class="{ '-rotate-90': open }">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                        </svg>
+                                    </div>
                                     </span>
-                                    <span x-show="open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                    </span>
-                                    <a x-on:click="open = ! open">
-
-                                        <span x-show="open" x-cloak>
-
-                                            <div
-                                                class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-
-                                        <span x-show="! open" x-cloak>
-
-                                            <div
-                                                class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -965,40 +803,20 @@
                                     <span x-show="open" @click.outside="open = false" x-transition x-cloak>player segmentation, action identification, player position tracking etc. Thanks to AI, player performance analysis has advanced beyond all previous levels and it aids in boosting performance and health. By offering our highly qualified training data, we assist you in improving your AI model so that it dominates the sports industry.
                                     </span>
                                 </p>
-                                <div class="flex justify-end pt-2">
-                                    <span x-show="! open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                    <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                    <span class="px-2">
+                                        <div
+                                        class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6 rotate-90"
+                                            :class="{ '-rotate-90': open }">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                        </svg>
+                                    </div>
                                     </span>
-                                    <span x-show="open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                    </span>
-                                    <a x-on:click="open = ! open">
-
-                                        <span x-show="open" x-cloak>
-                                            <div
-                                                class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-
-                                        <span x-show="! open" x-cloak>
-
-                                            <div
-                                                class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1024,41 +842,20 @@
                                     <span x-show="open" @click.outside="open = false" x-transition x-cloak>We routinely gather vast amounts of data in the finance sector, including customer records, details on stock trading, investment trends etc and offer high-caliber data that is of the utmost importance for the algorithms that support AI automation processes and systems in order for them to fully function and remain optimized.
                                     </span>
                                 </p>
-                                <div class="flex justify-end pt-2">
-                                    <span x-show="! open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                    <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                    <span class="px-2">
+                                        <div
+                                        class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6 rotate-90"
+                                            :class="{ '-rotate-90': open }">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                        </svg>
+                                    </div>
                                     </span>
-                                    <span x-show="open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                    </span>
-                                    <a x-on:click="open = ! open">
-
-                                        <span x-show="open" x-cloak>
-
-                                            <div
-                                                class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-
-                                        <span x-show="! open" x-cloak>
-
-                                            <div
-                                                class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1084,41 +881,20 @@
                                     <span x-show="open" @click.outside="open = false" x-transition x-cloak>As a result the efficiency and responsiveness of government operations will expand widely. Our devoted data gathering crews are well-connected with government organizations, various police forces, and local authorities that trust us to support and provide best security services for the data needs.
                                     </span>
                                 </p>
-                                <div class="flex justify-end pt-2">
-                                    <span x-show="! open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                    <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                    <span class="px-2">
+                                        <div
+                                        class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor"
+                                            class="w-6 h-6 rotate-90"
+                                            :class="{ '-rotate-90': open }">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                        </svg>
+                                    </div>
                                     </span>
-                                    <span x-show="open" x-cloak>
-                                        <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                    </span>
-                                    <a x-on:click="open = ! open">
-
-                                        <span x-show="open" x-cloak>
-
-                                            <div
-                                                class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-
-                                        <span x-show="! open" x-cloak>
-
-                                            <div
-                                                class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                    stroke-width="1.5" stroke="currentColor"
-                                                    class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                </svg>
-                                            </div>
-                                        </span>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1152,41 +928,20 @@
                                         <span x-show="open" @click.outside="open = false" x-transition x-cloak> We offer high-quality training data sets for AI algorithms that can improve the retail sector, including data gathered from sales, barcodes, and other sources. With the aid of our top-notch training data, Dataways is here to assist you in developing and obtaining the optimization of your AI solutions for client delivery, search engine optimization, and more.
                                         </span>
                                     </p>
-                                    <div class="flex justify-end pt-2">
-                                        <span x-show="! open" x-cloak>
-                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                    <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                        <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                        <span class="px-2">
+                                            <div
+                                            class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor"
+                                                class="w-6 h-6 rotate-90"
+                                                :class="{ '-rotate-90': open }">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                            </svg>
+                                        </div>
                                         </span>
-                                        <span x-show="open" x-cloak>
-                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                        </span>
-                                        <a x-on:click="open = ! open">
-
-                                            <span x-show="open" x-cloak>
-
-                                                <div
-                                                    class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        stroke-width="1.5" stroke="currentColor"
-                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                    </svg>
-                                                </div>
-                                            </span>
-
-                                            <span x-show="! open" x-cloak>
-
-                                                <div
-                                                    class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        stroke-width="1.5" stroke="currentColor"
-                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                    </svg>
-                                                </div>
-                                            </span>
-                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -1212,41 +967,20 @@
                                         <span x-show="open" @click.outside="open = false" x-transition x-cloak> vehicles. With the advent of self-driving automobiles, this industry is experiencing a tremendous increase in investment potential.We offer data for the automotive sector, which is based on a complex network of structures that gather data from outside the vehicle.
                                         </span>
                                     </p>
-                                    <div class="flex justify-end pt-2">
-                                        <span x-show="! open" x-cloak>
-                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                    <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                        <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                        <span class="px-2">
+                                            <div
+                                            class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor"
+                                                class="w-6 h-6 rotate-90"
+                                                :class="{ '-rotate-90': open }">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                            </svg>
+                                        </div>
                                         </span>
-                                        <span x-show="open" x-cloak>
-                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                        </span>
-                                        <a x-on:click="open = ! open">
-
-                                            <span x-show="open" x-cloak>
-
-                                                <div
-                                                    class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        stroke-width="1.5" stroke="currentColor"
-                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                    </svg>
-                                                </div>
-                                            </span>
-
-                                            <span x-show="! open" x-cloak>
-
-                                                <div
-                                                    class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        stroke-width="1.5" stroke="currentColor"
-                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                    </svg>
-                                                </div>
-                                            </span>
-                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -1273,41 +1007,20 @@
                                              for the purpose of training AI algorithm models to detect crops, identify traceability,  monitor the crops health etc in the harvesting processThe security precautions we take during the data production process ensure that the data we provide is always secure. Our process of production of data is secured and guaranteed that your data will stay protected at all times.
                                         </span>
                                     </p>
-                                    <div class="flex justify-end pt-2">
-                                        <span x-show="! open" x-cloak>
-                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                    <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                        <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                        <span class="px-2">
+                                            <div
+                                            class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor"
+                                                class="w-6 h-6 rotate-90"
+                                                :class="{ '-rotate-90': open }">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                            </svg>
+                                        </div>
                                         </span>
-                                        <span x-show="open" x-cloak>
-                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                        </span>
-                                        <a x-on:click="open = ! open">
-
-                                            <span x-show="open" x-cloak>
-
-                                                <div
-                                                    class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        stroke-width="1.5" stroke="currentColor"
-                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                    </svg>
-                                                </div>
-                                            </span>
-
-                                            <span x-show="! open" x-cloak>
-
-                                                <div
-                                                    class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        stroke-width="1.5" stroke="currentColor"
-                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                    </svg>
-                                                </div>
-                                            </span>
-                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -1334,41 +1047,20 @@
                                              businesses are quickly implementing this technology to enhance a variety of business workflows. With the aid of our top rated training data we can ensure a fully optimized and adequate algorithm for you.
                                    </span>
                                     </p>
-                                    <div class="flex justify-end pt-2">
-                                        <span x-show="! open" x-cloak>
-                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                    <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                        <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                        <span class="px-2">
+                                            <div
+                                            class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor"
+                                                class="w-6 h-6 rotate-90"
+                                                :class="{ '-rotate-90': open }">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                            </svg>
+                                        </div>
                                         </span>
-                                        <span x-show="open" x-cloak>
-                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                        </span>
-                                        <a x-on:click="open = ! open">
-
-                                            <span x-show="open" x-cloak>
-
-                                                <div
-                                                    class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        stroke-width="1.5" stroke="currentColor"
-                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                    </svg>
-                                                </div>
-                                            </span>
-
-                                            <span x-show="! open" x-cloak>
-
-                                                <div
-                                                    class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        stroke-width="1.5" stroke="currentColor"
-                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                    </svg>
-                                                </div>
-                                            </span>
-                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -1394,40 +1086,20 @@
                                         <span x-show="open" @click.outside="open = false" x-transition x-cloak>player segmentation, action identification, player position tracking etc. Thanks to AI, player performance analysis has advanced beyond all previous levels and it aids in boosting performance and health. By offering our highly qualified training data, we assist you in improving your AI model so that it dominates the sports industry.
                                         </span>
                                     </p>
-                                    <div class="flex justify-end pt-2">
-                                        <span x-show="! open" x-cloak>
-                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                    <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                        <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                        <span class="px-2">
+                                            <div
+                                            class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor"
+                                                class="w-6 h-6 rotate-90"
+                                                :class="{ '-rotate-90': open }">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                            </svg>
+                                        </div>
                                         </span>
-                                        <span x-show="open" x-cloak>
-                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                        </span>
-                                        <a x-on:click="open = ! open">
-
-                                            <span x-show="open" x-cloak>
-                                                <div
-                                                    class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        stroke-width="1.5" stroke="currentColor"
-                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                    </svg>
-                                                </div>
-                                            </span>
-
-                                            <span x-show="! open" x-cloak>
-
-                                                <div
-                                                    class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        stroke-width="1.5" stroke="currentColor"
-                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                    </svg>
-                                                </div>
-                                            </span>
-                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -1453,41 +1125,20 @@
                                         <span x-show="open" @click.outside="open = false" x-transition x-cloak> We routinely gather vast amounts of data in the finance sector, including customer records, details on stock trading, investment trends etc and offer high-caliber data that is of the utmost importance for the algorithms that support AI automation processes and systems in order for them to fully function and remain optimized.
                                         </span>
                                     </p>
-                                    <div class="flex justify-end pt-2">
-                                        <span x-show="! open" x-cloak>
-                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                    <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                        <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                        <span class="px-2">
+                                            <div
+                                            class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor"
+                                                class="w-6 h-6 rotate-90"
+                                                :class="{ '-rotate-90': open }">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                            </svg>
+                                        </div>
                                         </span>
-                                        <span x-show="open" x-cloak>
-                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                        </span>
-                                        <a x-on:click="open = ! open">
-
-                                            <span x-show="open" x-cloak>
-
-                                                <div
-                                                    class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        stroke-width="1.5" stroke="currentColor"
-                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                    </svg>
-                                                </div>
-                                            </span>
-
-                                            <span x-show="! open" x-cloak>
-
-                                                <div
-                                                    class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        stroke-width="1.5" stroke="currentColor"
-                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                    </svg>
-                                                </div>
-                                            </span>
-                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -1513,41 +1164,20 @@
                                         <span x-show="open" @click.outside="open = false" x-transition x-cloak> As a result the efficiency and responsiveness of government operations will expand widely. Our devoted data gathering crews are well-connected with government organizations, various police forces, and local authorities that trust us to support and provide best security services for the data needs.
                                         </span>
                                     </p>
-                                    <div class="flex justify-end pt-2">
-                                        <span x-show="! open" x-cloak>
-                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read more</p>
+                                    <div class="pt-3 flex justify-end text-dark-blue font-bold" x-on:click="open = ! open">
+                                        <span x-text="open ? '{{ _('Read Less') }}' : '{{ _('Read More') }}'"></span>
+                                        <span class="px-2">
+                                            <div
+                                            class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor"
+                                                class="w-6 h-6 rotate-90"
+                                                :class="{ '-rotate-90': open }">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                                            </svg>
+                                        </div>
                                         </span>
-                                        <span x-show="open" x-cloak>
-                                            <p class="text-dark-blue pr-3 pt-1 font-bold">Read less</p>
-                                        </span>
-                                        <a x-on:click="open = ! open">
-
-                                            <span x-show="open" x-cloak>
-
-                                                <div
-                                                    class="h-8 bg-white group-hover:bg-white w-8 rounded-full flex items-center justify-center border ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        stroke-width="1.5" stroke="currentColor"
-                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue -rotate-90">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                    </svg>
-                                                </div>
-                                            </span>
-
-                                            <span x-show="! open" x-cloak>
-
-                                                <div
-                                                    class="h-8 w-8 bg-white group-hover:bg-white   rounded-full flex items-center justify-center border ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        stroke-width="1.5" stroke="currentColor"
-                                                        class=" fill-dark-blue w-6 h-6 stroke-dark-blue hover:rotate-90">
-                                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                                            d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                                                    </svg>
-                                                </div>
-                                            </span>
-                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -1556,16 +1186,8 @@
                 </span>
 
                 <a x-on:click="open = ! open" class="flex justify-center pt-5">
-                    <span x-show="open"
-                        class="block md:hidden text-center text-white bg-light-gray p-1 px-5 rounded-3xl "
-                        x-cloak>Less
-
-                    </span>
-
-                    <span x-show="! open" class="block md:hidden  text-white bg-light-gray p-1 px-5 rounded-3xl "
-                        x-cloak>More
-                    </span>
-
+                    <span x-text="open ? '{{ _('Less') }}' : '{{ _('More') }}'"  class="block md:hidden text-center text-white bg-light-gray p-1 px-5 rounded-3xl "
+                    ></span>
                 </a>
             </div>
             {{-- End mobileview our industry --}}
