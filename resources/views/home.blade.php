@@ -3,10 +3,10 @@
     <x-slot name="title">gallery</x-slot>
 
      {{-- Hero Section --}}
-     <section class="bg-light-blue  xl:py-10 pt-36  overflow-hidden ">
+     <section class="bg-light-blue  xl:pb-10 pt-20  overflow-hidden ">
 
         <div class="container mx-auto relative ">
-            <div class="absolute hidden lg:block lg:h-screen  pt-20 ">
+            <div class="absolute hidden lg:block   pt-20 ">
                 <img class="" src="{{ asset('images/home/Group8068.svg') }}" alt="client" />
             </div>
             <div id="home"
@@ -34,7 +34,7 @@
 
      {{-- content--}}
 
-    <section class="bg-light-blue xl:py-10 ">
+    <section class="bg-light-blue py-10 ">
         <div class="container  mx-auto text-center  ">
             <p class=" text-white  text-center xl:text-2xl  ">As a data providing company, Dataways collects and processes supervised training and testing
                 datasets, including image, text, audio, video, and 3D Point Cloud for machine learning
