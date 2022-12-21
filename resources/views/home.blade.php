@@ -89,8 +89,10 @@
                     <div class="flex flex-col items-center">
                         <div
                             class="z-0 flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
-                            <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#9572FD] p-2"
+                            <div class="flex justify-center place-items-center rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#9572FD]">
+                                <img class="w-20 h-20 xl:w-12 xl:h-12"
                                 src="{{ asset('images/home/Group8147.svg') }}" alt="client" />
+                            </div>
                         </div>
                         <p
                             class="lg:text-white text-[#9572FD] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white lg:bg-transparent rounded-3xl lg:rounded-0">
@@ -111,9 +113,10 @@
                     <div class=" z-0 flex flex-col items-center">
                         <div
                             class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
-                            <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#4CE0FE] p-3"
-                                src="{{ asset('images/home/Group8149.svg') }}" alt="client" />
+                        <div class="flex justify-center place-items-center rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#4CE0FE]">
+                            <img class="w-20 h-20 xl:w-12 xl:h-12" src="{{ asset('images/home/Group8149.svg') }}" alt="team" />
                         </div>
+                    </div>
                         <p
                             class="lg:text-white text-[#4CE0FE] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white lg:bg-transparent rounded-3xl lg:rounded-0">
                             Meet our team</p>
@@ -133,8 +136,10 @@
                     <div class="z-0 flex flex-col items-center">
                         <div
                             class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
-                            <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#921583] p-3"
-                                src="{{ asset('images/home/Group8156.svg') }}" alt="client" />
+                           <div class="flex justify-center place-items-center rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#921583] ">
+                            <img class="w-20 h-20 xl:w-12 xl:h-12"
+                            src="{{ asset('images/home/Group8156.svg') }}" alt="feasibility" />
+                           </div>
                         </div>
                         <p
                             class="xl:text-white text-[#921583] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white xl:bg-transparent rounded-3xl xl:rounded-0">
@@ -155,8 +160,10 @@
                     <div class="z-0 flex flex-col items-center">
                         <div
                             class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
-                            <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#DD0062] p-3"
-                                src="{{ asset('images/home/Group8160.svg') }}" alt="client" />
+                            <div class="flex justify-center place-items-center rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#DD0062] ">
+                                <img class="w-20 h-20 xl:w-12 xl:h-12"
+                                src="{{ asset('images/home/Group8160.svg') }}" alt="sample" />
+                            </div>
                         </div>
                         <p
                             class="xl:text-white text-[#DD0062] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white xl:bg-transparent rounded-3xl xl:rounded-0">
@@ -179,8 +186,11 @@
                     <div class="z-0 flex flex-col items-center">
                         <div
                             class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
-                            <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#DD0062] p-3"
-                                src="{{ asset('images/home/Group8160.svg') }}" alt="client" />
+                            <div class="flex justify-center place-items-center  rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#DD0062] ">
+                                <img class="w-20 h-20 xl:w-12 xl:h-12"
+                                src="{{ asset('images/home/Group8160.svg') }}" alt="sample" />
+                            </div>
+
                         </div>
                         <p
                             class="lg:text-white text-[#DD0062] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white lg:bg-transparent rounded-3xl lg:rounded-0">
@@ -201,8 +211,10 @@
                     <div class="z-0 flex flex-col items-center">
                         <div
                             class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
-                            <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#921583] p-3"
-                                src="{{ asset('images/home/Group8156.svg') }}" alt="client" />
+                           <div class="flex justify-center place-items-center  rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#921583] ">
+                            <img class="w-20 h-20 xl:w-12 xl:h-12"
+                            src="{{ asset('images/home/Group8156.svg') }}" alt="client" />
+                           </div>
                         </div>
                         <p
                             class="lg:text-white text-[#921583] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white lg:bg-transparent rounded-3xl lg:rounded-0">
@@ -234,8 +246,11 @@
                 <div class="z-0 flex flex-col items-center">
                     <div
                         class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
-                        <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#2D97FF] p-3"
+                        <div class="flex justify-center place-items-center rounded-full xl:h-[70px] xl:w-[70px] bg-[#2D97FF] ">
+                            <img class="w-20 h-20 xl:w-12 xl:h-12"
                             src="{{ asset('images/home/Group8161.svg') }}" alt="client" />
+                        </div>
+
                     </div>
                     <p class="text-white text-center p-2 text-xl">Final Export</p>
                 </div>
@@ -245,8 +260,11 @@
                     <div class="z-0 flex flex-col items-center">
                         <div
                             class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
-                            <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#FBBD4E] p-2"
+                            <div class="flex justify-center place-items-center rounded-full xl:h-[70px] xl:w-[70px] bg-[#FBBD4E] ">
+                                <img class="w-20 h-20 xl:w-12 xl:h-12"
                                 src="{{ asset('images/home/Group8157.svg') }}" alt="client" />
+                            </div>
+
                         </div>
                         <p class="text-white text-center p-2 text-xl">Data Production</p>
                     </div>
@@ -264,10 +282,13 @@
                     <div class="z-0 flex flex-col items-center">
                         <div
                             class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
-                            <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#8FD1B5] p-3"
+                            <div class="flex justify-center place-items-center rounded-full xl:h-[70px] xl:w-[70px] bg-[#8FD1B5] ">
+                                <img class="w-20 h-20 xl:w-12 xl:h-12"
                                 src="{{ asset('images/home/Group8153.svg') }}" alt="client" />
+                            </div>
+
                         </div>
-                        <p class="text-white text-center p-2 text-xl">Data Production</p>
+                        <p class="text-white text-center p-2 text-xl">Client feedback</p>
                     </div>
                     <div class="absolute mt-2 2xl:-translate-x-36 xl:-translate-x-32">
                         <svg xmlns="http://www.w3.org/2000/svg"
@@ -283,8 +304,11 @@
                     <div class="z-0 flex flex-col items-center">
                         <div
                             class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px]">
-                            <img class="rounded-full xl:h-[70px] xl:w-[70px] bg-[#E272D6] p-3"
-                                src="{{ asset('images/home/Group8152.svg') }}" alt="client" />
+                            <div class="flex justify-center place-items-center rounded-full xl:h-[70px] xl:w-[70px] bg-[#E272D6] ">
+                                <img class="w-20 h-20 xl:w-12 xl:h-12"
+                                src="{{ asset('images/home/Group8152.svg') }}" alt="proposal" />
+                            </div>
+
                         </div>
                         <p class="text-white text-center p-2 text-xl">Proposal Submit</p>
                     </div>
@@ -334,8 +358,11 @@
                     <div class="z-0 flex flex-col items-center">
                         <div
                             class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
-                            <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#E272D6] p-3"
-                                src="{{ asset('images/home/Group8152.svg') }}" alt="client" />
+                           <div class="flex justify-center place-items-center rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#E272D6] ">
+                            <img class="w-20 h-20 xl:w-12 xl:h-12"
+                            src="{{ asset('images/home/Group8152.svg') }}" alt="client" />
+                           </div>
+
                         </div>
                         <p
                             class="lg:text-white text-[#E272D6] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white lg:bg-transparent rounded-3xl lg:rounded-0">
@@ -356,8 +383,11 @@
                     <div class="z-0 flex flex-col items-center">
                         <div
                             class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
-                            <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#8FD1B5] p-3"
+                            <div class="flex justify-center place-items-center  rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#8FD1B5]">
+                                <img class="w-20 h-20 xl:w-12 xl:h-12"
                                 src="{{ asset('images/home/Group8153.svg') }}" alt="client" />
+                            </div>
+
                         </div>
                         <p
                             class="lg:text-white text-[#8FD1B5] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white lg:bg-transparent rounded-3xl lg:rounded-0">
@@ -377,8 +407,11 @@
                     <div class="z-0 flex flex-col items-center">
                         <div
                             class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
-                            <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#FBBD4E] p-2"
-                                src="{{ asset('images/home/Group8157.svg') }}" alt="client" />
+                            <div class="flex justify-center place-items-center rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#FBBD4E]">
+                                <img class="w-20 h-20 xl:w-12 xl:h-12"
+                                src="{{ asset('images/home/Group8157.svg') }}" alt="data" />
+                            </div>
+
                         </div>
                         <p
                             class="xl:text-white text-[#FBBD4E] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white xl:bg-transparent rounded-3xl xl:rounded-0">
@@ -396,8 +429,10 @@
                 <div class="z-0 block lg:hidden xl:flex flex-col items-center">
                     <div
                         class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
-                        <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#2D97FF] p-3"
-                            src="{{ asset('images/home/Group8161.svg') }}" alt="client" />
+                        <div class="flex justify-center place-items-center rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#2D97FF]">
+                            <img class="w-20 h-20 xl:w-12 xl:h-12"
+                            src="{{ asset('images/home/Group8161.svg') }}" alt="final" />
+                        </div>
                     </div>
                     <p
                         class="xl:text-white text-[#2D97FF] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white xl:bg-transparent rounded-3xl xl:rounded-0">
@@ -410,8 +445,11 @@
                 <div class="z-0 hidden xl:hidden lg:flex flex-col items-center">
                     <div
                         class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
-                        <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#2D97FF] p-3"
-                            src="{{ asset('images/home/Group8161.svg') }}" alt="client" />
+                        <div class="flex justify-center place-items-center rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#2D97FF]">
+                            <img class="w-20 h-20 xl:w-12 xl:h-12"
+                            src="{{ asset('images/home/Group8161.svg') }}" alt="final" />
+                        </div>
+
                     </div>
                     <p
                         class="lg:text-white text-[#2D97FF] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white lg:bg-transparent rounded-3xl lg:rounded-0">
@@ -423,8 +461,10 @@
                     <div class="z-0 flex flex-col items-center">
                         <div
                             class=" flex items-center flex-col justify-center border-8 border-white rounded-full xl:h-[100px] xl:w-[100px] h-[150px] w-[150px]">
-                            <img class="rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#FBBD4E] p-2"
-                                src="{{ asset('images/home/Group8157.svg') }}" alt="client" />
+                            <div class="flex justify-center place-items-center rounded-full xl:h-[70px] xl:w-[70px] h-[120px] w-[120px] bg-[#FBBD4E]">
+                                <img class="w-20 h-20 xl:w-12 xl:h-12"
+                                src="{{ asset('images/home/Group8157.svg') }}" alt="data" />
+                            </div>
                         </div>
                         <p
                             class="lg:text-white text-[#FBBD4E] text-center xl:p-2 p-1 xl:px-2 px-6 text-xl bg-white lg:bg-transparent rounded-3xl lg:rounded-0">
