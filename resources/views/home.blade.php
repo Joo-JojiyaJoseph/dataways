@@ -33,7 +33,6 @@
     {{-- End Hero Section --}}
 
      {{-- content--}}
-
     <section class="bg-light-blue py-10 ">
         <div class="container  mx-auto text-center  ">
             <p class=" text-white  text-center xl:text-2xl  ">As a data providing company, Dataways collects and processes supervised training and testing
@@ -58,7 +57,7 @@
             <div id="how_it_work"
                 class="relative place-items-center mx-auto grid grid-cols-1 gap-y-20 lg:grid-cols-2 xl:grid-cols-4 xl:pt-10  ">
                 {{-- <div class="flex  items-center relative"> --}}
-                <div class="hidden lg:block absolute mx-auto h-1 xl:w-[85%] w-[66%] bg-white lg:-translate-y-36 lg:translate-x-36  xl:-translate-y-2 xl:translate-x-16 rounded-full under_line"
+                <div class="hidden lg:block absolute mx-auto h-1 xl:w-[85%] w-[66%] bg-white lg:-translate-y-36 lg:translate-x-36  xl:-translate-y-1 xl:translate-x-16 rounded-full under_line"
                     id="under_line">
                 </div>
                 <div class="block lg:hidden xl:block absolute mx-auto xl:h-[11.8rem] 2xl:h-[11.8rem] h-full w-1 bg-white translate-y-10  xl:translate-y-10 xl:-translate-x-[1.28rem] 2xl:-translate-x-[2.4rem] top-5 xl:top-[1.6rem] xl:right-3  mt-5 rounded-full under_line"
@@ -98,7 +97,7 @@
                             Client</p>
                     </div>
                     <div
-                        class="absolute mt-1 2xl:translate-x-52  xl:translate-x-44 lg:translate-x-[18rem] lg:translate-y-[2.5rem]  translate-x-[2.2rem] translate-y-48 xl:translate-y-0">
+                        class="absolute mt-1 2xl:translate-x-52  xl:translate-x-44 lg:translate-x-[18rem] lg:translate-y-[2.5rem]  translate-x-[2.2rem] translate-y-48 xl:translate-y-1">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             class=" w-18 xl:w-20 h-20 fill-[#9572FD] stroke-none rotate-90 lg:rotate-0"
                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -120,7 +119,7 @@
                             Meet our team</p>
                     </div>
                     <div
-                        class="absolute mt-1 2xl:translate-x-52 lg:translate-x-[17.1rem] xl:translate-x-44 translate-x-12 translate-y-48 xl:translate-y-0">
+                        class="absolute mt-1 2xl:translate-x-52 lg:translate-x-[17.1rem] xl:translate-x-44 translate-x-12 translate-y-48 xl:translate-y-1">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             class="w-18 xl:w-20 h-20 fill-[#4CE0FE] stroke-none  rotate-90 xl:rotate-0"
                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -142,7 +141,7 @@
                             Feasibility Study</p>
                     </div>
                     <div
-                        class="absolute mt-1 2xl:translate-x-52 xl:translate-x-44 translate-x-[3.5rem]  xl:translate-y-0">
+                        class="absolute mt-1 2xl:translate-x-52 xl:translate-x-44 translate-x-[3.5rem]  xl:translate-y-1">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             class="w-18 xl:w-20 h-20 fill-[#921583] stroke-none rotate-90 xl:rotate-0"
                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -164,7 +163,7 @@
                             Sample Phase</p>
                     </div>
                     <div
-                        class="absolute  2xl:translate-x-[10.5rem] xl:translate-x-[10rem] xl:translate-y-28 translate-x-[2.9rem] ">
+                        class="absolute  2xl:translate-x-[10.82rem] xl:translate-x-[9.92rem] xl:translate-y-28 translate-x-[2.9rem] ">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             class="w-18 xl:w-20 h-20 fill-[#DD0062] stroke-none rotate-90 xl:rotate-90"
                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
